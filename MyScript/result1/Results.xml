@@ -135,7 +135,7 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="07.02.2017 - 20:41:03" eTime="07.02.2017 - 20:41:07" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="07.02.2017 - 23:33:31" eTime="07.02.2017 - 23:33:35" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -146,8 +146,8 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param RegExp]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>__timestamp</FONT></STRONG><BR>RegExp = <STRONG><FONT COLOR=#00AF00>name="__timestamp"\ value="(.*?)"><input\ type</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>[param not passed in call]</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.02.2017 - 20:41:08]]></Time>
-<TimeTick>1486489268</TimeTick>
+<Time><![CDATA[07.02.2017 - 23:33:36]]></Time>
+<TimeTick>1486499616</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="9" >
 <Disp><![CDATA[Service: Reg Save Param RegExp]]></Disp>
 </NodeArgs>
@@ -155,8 +155,8 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param RegExp]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>__secret</FONT></STRONG><BR>RegExp = <STRONG><FONT COLOR=#00AF00>name="__secret"\ value="(.*?)"></form</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>[param not passed in call]</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.02.2017 - 20:41:08]]></Time>
-<TimeTick>1486489268</TimeTick>
+<Time><![CDATA[07.02.2017 - 23:33:37]]></Time>
+<TimeTick>1486499617</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="10" >
 <Disp><![CDATA[Service: Reg Save Param RegExp]]></Disp>
 </NodeArgs>
@@ -164,8 +164,8 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Url: quiz]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.02.2017 - 20:41:10]]></Time>
-<TimeTick>1486489270</TimeTick>
+<Time><![CDATA[07.02.2017 - 23:33:38]]></Time>
+<TimeTick>1486499618</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="11" status="Passed" >
 <Disp><![CDATA[Url: quiz]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -176,8 +176,8 @@
 <Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[Submit Data: quiz_2]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Resource of content type ""DummyContentType"" loaded successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.02.2017 - 20:41:11]]></Time>
-<TimeTick>1486489271</TimeTick>
+<Time><![CDATA[07.02.2017 - 23:33:40]]></Time>
+<TimeTick>1486499620</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="12" status="Passed" >
 <Disp><![CDATA[Submit Data: quiz_2]]></Disp>
 </NodeArgs>
@@ -185,8 +185,8 @@
 <Step rID="T9">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param RegExp]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>__timestamp_1</FONT></STRONG><BR>RegExp = <STRONG><FONT COLOR=#00AF00>name="__timestamp"\ value="(.*?)"><input\ type</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>[param not passed in call]</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.02.2017 - 20:41:12]]></Time>
-<TimeTick>1486489272</TimeTick>
+<Time><![CDATA[07.02.2017 - 23:33:41]]></Time>
+<TimeTick>1486499621</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="13" >
 <Disp><![CDATA[Service: Reg Save Param RegExp]]></Disp>
 </NodeArgs>
@@ -194,8 +194,8 @@
 <Step rID="T10">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param RegExp]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>__secret_1</FONT></STRONG><BR>RegExp = <STRONG><FONT COLOR=#00AF00>name="__secret"\ value="(.*?)"><hr</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>[param not passed in call]</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.02.2017 - 20:41:13]]></Time>
-<TimeTick>1486489273</TimeTick>
+<Time><![CDATA[07.02.2017 - 23:33:41]]></Time>
+<TimeTick>1486499621</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="14" >
 <Disp><![CDATA[Service: Reg Save Param RegExp]]></Disp>
 </NodeArgs>
@@ -203,8 +203,8 @@
 <Step rID="T11">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>Texts</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<input type="text" class="form-control" name="</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB="></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=all</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.02.2017 - 20:41:17]]></Time>
-<TimeTick>1486489277</TimeTick>
+<Time><![CDATA[07.02.2017 - 23:33:42]]></Time>
+<TimeTick>1486499622</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="15" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -212,8 +212,8 @@
 <Step rID="T12">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>Textareas</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<textarea name="</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=" class="form-control"</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=all</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.02.2017 - 20:41:18]]></Time>
-<TimeTick>1486489278</TimeTick>
+<Time><![CDATA[07.02.2017 - 23:33:43]]></Time>
+<TimeTick>1486499623</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="16" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -221,8 +221,8 @@
 <Step rID="T13">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>Selectgroups</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<div class="form-group"><select</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</select></div></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=all</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.02.2017 - 20:41:18]]></Time>
-<TimeTick>1486489278</TimeTick>
+<Time><![CDATA[07.02.2017 - 23:33:44]]></Time>
+<TimeTick>1486499624</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="17" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -230,8 +230,8 @@
 <Step rID="T14">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>Radiogroups</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<div class="form-group"><div class="radio"></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</div></div></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=all</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.02.2017 - 20:41:19]]></Time>
-<TimeTick>1486489279</TimeTick>
+<Time><![CDATA[07.02.2017 - 23:33:45]]></Time>
+<TimeTick>1486499625</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="18" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -239,72 +239,165 @@
 <Step rID="T15">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>Checkboxgroups</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<div class="form-group"><div class="checkbox"></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</div></div></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=all</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.02.2017 - 20:41:19]]></Time>
-<TimeTick>1486489279</TimeTick>
+<Time><![CDATA[07.02.2017 - 23:33:46]]></Time>
+<TimeTick>1486499626</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="19" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T16">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=Congratulations, you've answered all the questions correctly!</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[07.02.2017 - 23:33:47]]></Time>
+<TimeTick>1486499627</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="20" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T17">
 <Obj plainTxt="False" ><![CDATA[Url: 1]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.02.2017 - 20:41:20]]></Time>
-<TimeTick>1486489280</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="20" status="Passed" >
+<Time><![CDATA[07.02.2017 - 23:34:01]]></Time>
+<TimeTick>1486499641</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="21" status="Passed" >
 <Disp><![CDATA[Url: 1]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t7.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T17">
+<Step rID="T18">
 <Obj plainTxt="False" ><![CDATA[Custom Request: web_custom_request]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Resource of content type ""DummyContentType"" loaded successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.02.2017 - 20:41:25]]></Time>
-<TimeTick>1486489285</TimeTick>
-<NodeArgs eType="General" icon="7" nRep="21" status="Passed" >
+<Time><![CDATA[07.02.2017 - 23:35:28]]></Time>
+<TimeTick>1486499728</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="22" status="Passed" >
 <Disp><![CDATA[Custom Request: web_custom_request]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T18">
+<Step rID="T19">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param RegExp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>__timestamp_1</FONT></STRONG><BR>RegExp = <STRONG><FONT COLOR=#00AF00>name="__timestamp"\ value="(.*?)"><input\ type</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>[param not passed in call]</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[07.02.2017 - 23:35:31]]></Time>
+<TimeTick>1486499731</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="23" >
+<Disp><![CDATA[Service: Reg Save Param RegExp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T20">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param RegExp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>__secret_1</FONT></STRONG><BR>RegExp = <STRONG><FONT COLOR=#00AF00>name="__secret"\ value="(.*?)"><hr</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>[param not passed in call]</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[07.02.2017 - 23:35:32]]></Time>
+<TimeTick>1486499732</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="24" >
+<Disp><![CDATA[Service: Reg Save Param RegExp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T21">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>Texts</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<input type="text" class="form-control" name="</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB="></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=all</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[07.02.2017 - 23:35:32]]></Time>
+<TimeTick>1486499732</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="25" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T22">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>Textareas</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<textarea name="</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=" class="form-control"</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=all</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[07.02.2017 - 23:35:33]]></Time>
+<TimeTick>1486499733</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="26" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T23">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>Selectgroups</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<div class="form-group"><select</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</select></div></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=all</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[07.02.2017 - 23:35:34]]></Time>
+<TimeTick>1486499734</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="27" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T24">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>Radiogroups</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<div class="form-group"><div class="radio"></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</div></div></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=all</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[07.02.2017 - 23:35:34]]></Time>
+<TimeTick>1486499734</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="28" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T25">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>Checkboxgroups</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<div class="form-group"><div class="checkbox"></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</div></div></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=all</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[07.02.2017 - 23:35:35]]></Time>
+<TimeTick>1486499735</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="29" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T26">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=Congratulations, you've answered all the questions correctly!</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.02.2017 - 20:41:28]]></Time>
-<TimeTick>1486489288</TimeTick>
-<NodeArgs eType="General" icon="8" nRep="22" >
+<Time><![CDATA[07.02.2017 - 23:35:35]]></Time>
+<TimeTick>1486499735</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="30" >
 <Disp><![CDATA[Service: Reg Find]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T19">
-<Obj plainTxt="False" ><![CDATA[Url: 2]]></Obj>
+<Step rID="T27">
+<Obj plainTxt="False" ><![CDATA[Url: 1]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[07.02.2017 - 20:41:29]]></Time>
-<TimeTick>1486489289</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="23" status="Passed" >
-<Disp><![CDATA[Url: 2]]></Disp>
+<Time><![CDATA[07.02.2017 - 23:36:02]]></Time>
+<TimeTick>1486499762</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="31" status="Passed" >
+<Disp><![CDATA[Url: 1]]></Disp>
 <BtmPane vType="HTMLSNSH" >
-<Path><![CDATA[\Iteration1\t9.inf]]></Path>
+<Path><![CDATA[\Iteration1\t11.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="07.02.2017 - 20:41:07" eTime="07.02.2017 - 20:41:37" passed="5" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
+<Step rID="T28">
+<Obj plainTxt="False" ><![CDATA[Custom Request: web_custom_request]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Step failed</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[07.02.2017 - 23:36:41]]></Time>
+<TimeTick>1486499801</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="32" status="Failed" >
+<Disp><![CDATA[Custom Request: web_custom_request]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration1\t12.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T29">
+<Obj plainTxt="False" ><![CDATA[Script Aborted!]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Failed</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[07.02.2017 - 23:36:41]]></Time>
+<TimeTick>1486499801</TimeTick>
+<NodeArgs eType="General" icon="1" nRep="33" status="Failed" >
+<Disp><![CDATA[Script Aborted!]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="07.02.2017 - 23:33:35" eTime="07.02.2017 - 23:36:41" passed="5" failed="2" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="8" status="Failed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
 </Action>
-<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Passed" >
+<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Failed" >
 <Disp><![CDATA[MyScript Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
-<Action rID="T20">
+<Action rID="T30">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="07.02.2017 - 20:41:37" eTime="07.02.2017 - 20:41:37" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="26" >
+<Summary sTime="07.02.2017 - 23:36:41" eTime="07.02.2017 - 23:37:11" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="36" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="07.02.2017 - 20:41:03" eTime="07.02.2017 - 20:41:37" passed="5" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
+<Summary sTime="07.02.2017 - 23:33:31" eTime="07.02.2017 - 23:37:11" passed="5" failed="2" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="4" status="Failed" >
 <Disp><![CDATA[Test MyScript Summary]]></Disp>
 </NodeArgs>
 </Doc>

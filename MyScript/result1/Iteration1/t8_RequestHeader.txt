@@ -7,6 +7,6 @@ Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
 Accept: */*
 Connection: Keep-Alive
 Host: wiley.youplace.net
-Cookie: sid=cd5756161a6348054612254b147971411be292bd323e849e1eb9950521e1ad8b
-Content-Length: 124
+Cookie: sid=7858a6fdd0fe0438dc573df11c7a1bd601de0d5f64ef1e2e2ade5a79bbfffc69
+Content-Length: 159
 

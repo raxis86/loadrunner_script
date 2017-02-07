@@ -2577,6 +2577,9 @@ char temp[1000];
 char itmp[10];
 
  
+char* host;
+
+ 
 
 char* html;
 char res[100];
@@ -2585,6 +2588,8 @@ char name[100];
 int i=0, j=0, k=0, p=0, maxlength=0;
 int index=0;
 int isSuccess=0;
+int qnumber=0;
+int snapshot=2;
 
 Action()
 {
@@ -2614,7 +2619,7 @@ Action()
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=", 
-		"Snapshot=t451.inf", 
+		"Snapshot=t1.inf", 
 		"Mode=HTML", 
 		"LAST");
 
@@ -2627,11 +2632,11 @@ Action()
 		"Method=POST",
 		"RecContentType=application/json",
 		"Referer=http://wiley.youplace.net/quiz",
-		"Snapshot=t453.inf",
+		"Snapshot=t2.inf",
 		"Mode=HTML",
 		"ITEMDATA",
-		"Name=name", "Value=user1", "ENDITEM",
-		"Name=password", "Value=test", "ENDITEM",
+		"Name=name", "Value={Username}", "ENDITEM",
+		"Name=password", "Value={Password}", "ENDITEM",
 		"Name=__timestamp", "Value={__timestamp}", "ENDITEM",
 		"Name=__secret", "Value={__secret}", "ENDITEM",
 		"EXTRARES",
@@ -2642,7 +2647,7 @@ Action()
 	
 	
 	
-	
+	do { 
 
  
 	web_reg_save_param_regexp(
@@ -2709,19 +2714,48 @@ Action()
 		"Ordinal=all",
 		"SEARCH_FILTERS",
 		"LAST");
-
-		
-		
-	web_url("1", 
-		"URL=http://wiley.youplace.net/quiz/question/1", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://wiley.youplace.net/quiz", 
-		"Snapshot=t454.inf", 
-		"Mode=HTML", 
-		"LAST");	
 		
 	 
+	web_reg_find("Search=All",
+		"SaveCount=SuccessCount",
+		"Text=Congratulations, you've answered all the questions correctly!",
+		"LAST");	
+
+	
+	lr_think_time(10);
+	
+	qnumber++;
+	itoa(qnumber,itmp,10);
+	 
+	sprintf(temp,"http://wiley.youplace.net/quiz/question/");
+
+	host=lr_eval_string(temp);
+		
+	strcat(host,itmp);
+	
+	lr_save_string(host,"Host");
+	
+	snapshot++;
+	itoa(snapshot,itmp,10);
+	lr_save_string(itmp, "snapshot");
+		
+	web_url("1",
+		"URL={Host}",
+		"RecContentType=text/html",
+		"Snapshot=t3.inf",
+		"Mode=HTML",
+		"LAST");	
+	 
+# 184 "Action.c"
+		
+	 
+	
+	isSuccess=atoi(lr_eval_string("{SuccessCount}"));
+	
+	if(isSuccess!=0){
+		lr_output_message("Sucess!");
+		 
+	}
 	
 	
 	 
@@ -2883,42 +2917,47 @@ Action()
 
 	lr_think_time(10);
 	
+ 
 
+
+
+
+
+
+
+	
+	snapshot++;
+	itoa(snapshot,itmp,10);
+	lr_save_string(itmp, "snapshot");
+	
 	web_custom_request("web_custom_request",
-		"URL=http://wiley.youplace.net/quiz/question/1",
+		"URL={Host}",
 		"Method=POST",
 		"Resource=0", 
 		"RecContentType=text/html", 
-		"Snapshot=t456.inf", 
+		"Snapshot=t4.inf",
 		"Mode=HTTP", 
 		"Body={Body}",
 		"LAST");
 
 	
+ 
+
+
+
+
+
+
+
+	
 	 
+# 396 "Action.c"
 	
-
-	web_reg_find("Search=All",
-		"SaveCount=SuccessCount",
-		"Text=Congratulations, you've answered all the questions correctly!",
-		"LAST");
-
+	 
+# 406 "Action.c"
+		
 	
-	web_url("2", 
-		"URL=http://wiley.youplace.net/quiz/question/2", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://wiley.youplace.net/quiz/question/1", 
-		"Snapshot=t457.inf", 
-		"Mode=HTML", 
-		"LAST");
-	
-	isSuccess=atoi(lr_eval_string("{SuccessCount}"));
-	
-	if(isSuccess!=0){
-		lr_output_message("Sucess!");
-		 
-	}
+	}while(isSuccess==0);
 
 	return 0;
 }

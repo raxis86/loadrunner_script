@@ -1,7 +1,7 @@
 [General]
 Type=Multi
 DefaultCfg=default.cfg
-ParameterFile=
+ParameterFile=MyScript.prm
 GlobalParameterFile=
 NewFunctionHeader=1
 RunType=cci
@@ -52,7 +52,13 @@ vuser_end=cci
 [TransactionsOrder]
 Order=
 [StateManagement]
-LastReplayStatus=1
+LastReplayStatus=2
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
+[ParameterSimulation]
+NumVusers=1
+IsDurationIndefinite=0
+NumIterationsUntilCompletion=1
+IterationFromRTS=0
+NumIterationIndefinitely=1
