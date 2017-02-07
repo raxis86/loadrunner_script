@@ -1,0 +1,11 @@
+[t290]
+FileName1=t290.htm
+URL1=http://wiley.youplace.net/quiz/question/1
+Total=1
+RequestHeaderFile=t290_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t290_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_290.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

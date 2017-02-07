@@ -1,0 +1,11 @@
+[t385]
+FileName1=t385.htm
+URL1=http://wiley.youplace.net/quiz/question/submit
+Total=1
+RequestHeaderFile=t385_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t385_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_385.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

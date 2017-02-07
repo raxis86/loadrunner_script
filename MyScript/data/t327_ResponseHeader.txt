@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Content-Type: text/proto
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip
+Date: Mon, 06 Feb 2017 17:31:10 GMT
+Server: AutoFill Server
+Cache-Control: private
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: quic=":443"; ma=2592000; v="35,34"
+Transfer-Encoding: chunked
+

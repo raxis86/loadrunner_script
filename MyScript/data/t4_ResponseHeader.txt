@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: public, max-age=172800
+Content-Type: application/ocsp-response
+Date: Mon, 06 Feb 2017 16:13:57 GMT
+Etag: "5895de8e-1d7"
+Expires: Mon, 13 Feb 2017 04:13:57 GMT
+Last-Modified: Sat, 04 Feb 2017 14:00:46 GMT
+Server: ECS (frf/87A3)
+X-Cache: HIT
+Content-Length: 471
+

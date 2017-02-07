@@ -1,0 +1,11 @@
+[t165]
+FileName1=t165.html
+URL1=https://clients1.google.com/tbproxy/af/query?client=Google%20Chrome
+Total=1
+RequestHeaderFile=t165_RequestHeader.txt
+RequestBodyFile=t165_RequestBody.txt
+ResponseHeaderFile=t165_ResponseHeader.txt
+ContentType=text/proto
+SnapshotXmlFile=snapshot_165.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

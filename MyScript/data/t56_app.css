@@ -1,0 +1,259 @@
+/* global rules */
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400&subset=cyrillic,latin); */
+
+body {
+    background-image: url('../img/css/striped_lens.png');
+    color: #888;
+    margin-bottom: 8px;
+}
+
+.container {
+    padding: 0 8px;
+}
+
+.page {
+    box-shadow: 0px 3px 8px #ccc;
+    border-radius: 0 0 8px 8px;
+}
+
+.body-text {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.min-height {
+    min-height: 30em;
+}
+
+/* update bootstrap rules */
+
+.navbar {
+    margin-top: 0;
+}
+
+.carousel-control {
+    color: #222;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ccc;
+}
+
+.btn-my {
+    color: #ffffff;
+    background-color: #CC43AC;
+    border-color: #AD5AAA;
+    min-width: 6em;
+}
+
+.btn-my:hover,
+.btn-my:focus,
+.btn-my:active,
+.btn-my.active,
+.open .dropdown-toggle.btn-my {
+    color: #ffffff;
+    background-color: #D63CC4;
+    border-color: #AD5AAA;
+}
+
+.btn-my:active,
+.btn-my.active,
+.open .dropdown-toggle.btn-my {
+    background-image: none;
+}
+
+.btn-my.disabled,
+.btn-my[disabled],
+fieldset[disabled] .btn-my,
+.btn-my.disabled:hover,
+.btn-my[disabled]:hover,
+fieldset[disabled] .btn-my:hover,
+.btn-my.disabled:focus,
+.btn-my[disabled]:focus,
+fieldset[disabled] .btn-my:focus,
+.btn-my.disabled:active,
+.btn-my[disabled]:active,
+fieldset[disabled] .btn-my:active,
+.btn-my.disabled.active,
+.btn-my[disabled].active,
+fieldset[disabled] .btn-my.active {
+    background-color: #CC43AC;
+    border-color: #AD5AAA;
+}
+
+.btn-my .badge {
+    color: #CC43AC;
+    background-color: #ffffff;
+}
+
+/* specific rules */
+
+h1 {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 2.5em;
+    color:#777;
+
+}
+
+h2 {
+    font-family: 'Open Sans', serif;
+    font-weight: 300;
+    font-size: 2.0em;
+    color: #aaa;
+}
+
+h3 {
+    font-size: 1.6em;
+    color: #555;
+    font-family: 'Open Sans', serif;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 1.2em;
+    color: #000;
+    font-family: 'Open Sans', serif;
+    font-weight: 400;
+    margin: 1.0em 0;
+}
+
+p, td {
+    font-family: 'Open Sans', serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #333;
+}
+
+small {
+    font-size: 0.8em;
+    font-family: 'Open Sans', serif;
+    font-weight: 400;
+}
+
+li{
+    margin-bottom: 0.5em;
+    font-family: 'Open Sans', serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #888;
+}
+
+form label, th {
+    font-size: 1em;
+    color: #999;
+    font-family: 'Open Sans', serif;
+    font-weight: 400;
+}
+
+a {
+    color: #ff31e8;
+}
+
+a:hover {
+    color: #fc89ff;
+    text-decoration: none;
+}
+
+.test-border {
+    border: 1px red solid;
+}
+
+.border-top-gray {
+    border-top: 1px solid #ddd;
+}
+
+.border-bottom-gray {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.65em;
+    margin-bottom: 1.4em;
+}
+
+.border-left-gray {
+    border-left: 1px solid #ddd;
+}
+
+.border-right-gray {
+    border-right: 1px solid #ddd;
+}
+
+.margin-top {
+    margin-top: 1em;
+}
+
+.margin-right {
+    margin-right: 1em;
+}
+
+.padding-top {
+    padding-top: 1em;
+}
+
+.padding-bottom {
+    padding-bottom: 1em;
+}
+
+.padding-left {
+    padding-left: 1em;
+}
+
+.padding-right {
+    padding-right: 1em;
+}
+
+.radius-bottom {
+    border-radius: 0 0 8px 8px;
+}
+
+.text-white {
+    color: #ddd;
+}
+
+.text-default {
+    color: #444;
+}
+
+a.text-white:hover {
+    color: #fff;
+}
+
+.padding-half {
+    padding: 0.5em;
+}
+
+.backgraund-panel-inverse {
+    background-color: #666;
+}
+
+.v-divider {
+    width: 1px;
+    border: 1px solid #777;
+    margin: 0 0.5em 0 0.3em;
+}
+
+.pull-center {
+    display: table;
+    margin: 0 auto;
+}
+
+#captcha {
+    cursor: pointer;
+}
+
+.btn-circle {
+    text-align: center;
+    padding: 0.4em 0.6em 0.4em 0.7em;
+    font-size: 0.8em;
+    line-height: 1.428571429;
+    border-radius: 15px;
+    outline: 0px !important;
+    color: #ff31e8;
+}
+
+.btn-width-sm {
+    width: 7em;
+}
+
+.icon-width {
+    width: 1.4em;
+}

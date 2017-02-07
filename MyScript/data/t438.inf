@@ -1,0 +1,11 @@
+[t438]
+FileName1=t438_seed.html
+URL1=https://clients4.google.com/chrome-variations/seed?osname=win
+Total=1
+ContentType=application/octet-stream
+SnapshotXmlFile=snapshot_438.xml
+RequestHeaderFile=t438_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t438_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

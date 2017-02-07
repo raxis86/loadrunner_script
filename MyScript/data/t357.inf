@@ -1,0 +1,11 @@
+[t357]
+FileName1=t357.htm
+URL1=http://wiley.youplace.net/quiz/question/2
+Total=1
+RequestHeaderFile=t357_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t357_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_357.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

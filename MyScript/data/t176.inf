@@ -1,0 +1,11 @@
+[t176]
+FileName1=t176_glyphicons-halflings-regular.html
+URL1=http://wiley.youplace.net/fonts/glyphicons-halflings-regular.woff2
+Total=1
+ContentType=application/font-woff2
+SnapshotXmlFile=snapshot_176.xml
+RequestHeaderFile=t176_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t176_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

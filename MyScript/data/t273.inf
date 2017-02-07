@@ -1,0 +1,11 @@
+[t273]
+FileName1=t273.html
+URL1=http://wiley.youplace.net/quiz/question/18
+Total=1
+RequestHeaderFile=t273_RequestHeader.txt
+RequestBodyFile=t273_RequestBody.txt
+ResponseHeaderFile=t273_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_273.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

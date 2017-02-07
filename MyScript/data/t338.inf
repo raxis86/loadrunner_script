@@ -1,0 +1,11 @@
+[t338]
+FileName1=t338.html
+URL1=https://clients1.google.com/tbproxy/af/query?client=Google%20Chrome
+Total=1
+RequestHeaderFile=t338_RequestHeader.txt
+RequestBodyFile=t338_RequestBody.txt
+ResponseHeaderFile=t338_ResponseHeader.txt
+ContentType=text/proto
+SnapshotXmlFile=snapshot_338.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

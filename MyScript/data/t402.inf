@@ -1,0 +1,11 @@
+[t402]
+FileName1=t402.html
+URL1=http://wiley.youplace.net/quiz/question/2
+Total=1
+RequestHeaderFile=t402_RequestHeader.txt
+RequestBodyFile=t402_RequestBody.txt
+ResponseHeaderFile=t402_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_402.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

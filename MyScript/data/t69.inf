@@ -1,0 +1,11 @@
+[t69]
+FileName1=t69.html
+URL1=http://wiley.youplace.net/quiz/question/5
+Total=1
+RequestHeaderFile=t69_RequestHeader.txt
+RequestBodyFile=t69_RequestBody.txt
+ResponseHeaderFile=t69_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_69.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

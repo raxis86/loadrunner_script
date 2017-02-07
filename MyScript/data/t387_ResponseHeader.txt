@@ -1,0 +1,17 @@
+HTTP/1.1 206 Partial Content
+Content-Type: application/octet-stream
+Content-Length: 300000
+Connection: keep-alive
+Date: Wed, 02 Nov 2016 19:33:10 GMT
+x-amz-replication-status: COMPLETED
+Last-Modified: Tue, 01 Nov 2016 21:22:38 GMT
+ETag: "da6b723a11d943e2d64934083163975f"
+x-amz-version-id: KEadlHh0HsmiNro5mZoWQjIwYcXd36RL
+Accept-Ranges: bytes
+Server: AmazonS3
+Via: 1.1 bfc29822e21ecc352f71dce83e06ab74.cloudfront.net (CloudFront), 1.1 79503619d600dbc1c9e04a650d3d7f3f.cloudfront.net (CloudFront)
+Content-Range: bytes 2400000-2699999/20929842
+Age: 43533
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Id: AIcBFLUS7L5c3rwroAYfCrmJ58Y7wGNt2LpFKvuQ5zbrQVfL3BIUKA==
+

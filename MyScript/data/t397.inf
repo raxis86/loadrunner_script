@@ -1,0 +1,11 @@
+[t397]
+FileName1=t397.html
+URL1=https://self-repair.mozilla.org/api/v1/classify_client/
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_397.xml
+RequestHeaderFile=t397_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t397_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

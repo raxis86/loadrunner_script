@@ -1,0 +1,11 @@
+[t340]
+FileName1=t340.htm
+URL1=http://wiley.youplace.net/quiz/question/submit
+Total=1
+RequestHeaderFile=t340_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t340_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_340.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

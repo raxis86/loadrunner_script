@@ -1,0 +1,11 @@
+[t272]
+FileName1=t272.htm
+URL1=http://wiley.youplace.net/quiz/question/18
+Total=1
+RequestHeaderFile=t272_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t272_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_272.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

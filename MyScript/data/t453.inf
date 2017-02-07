@@ -1,0 +1,13 @@
+[t453]
+FileName1=t453.html
+URL1=http://wiley.youplace.net/quiz
+Total=2
+RequestHeaderFile=t453_RequestHeader.txt
+RequestBodyFile=t453_RequestBody.txt
+ResponseHeaderFile=t453_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_453.xml
+FileName2=t453_ajax-loader.gif
+URL2=http://wiley.youplace.net/img/system/ajax-loader.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

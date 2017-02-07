@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Allow: GET, POST, HEAD, OPTIONS
+Cache-Control: public, max-age=30
+Content-Encoding: gzip
+Content-Type: application/json
+Date: Mon, 06 Feb 2017 18:17:39 GMT
+strict-transport-security: max-age=15768000; includeSubDomains
+Vary: Accept
+X-Cached: HIT
+x-content-type-options: nosniff
+X-Frame-Options: DENY
+x-xss-protection: 1; mode=block
+Content-Length: 1121
+Connection: keep-alive
+

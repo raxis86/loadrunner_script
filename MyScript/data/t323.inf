@@ -1,0 +1,15 @@
+[t323]
+FileName1=t323.htm
+URL1=http://wiley.youplace.net/quiz
+Total=3
+RequestHeaderFile=t323_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t323_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_323.xml
+FileName2=t323_bootstrap.min.css
+URL2=http://wiley.youplace.net/css/bootstrap.min.css
+FileName3=t323_l.html
+URL3=https://translate.googleapis.com/translate_a/l?client=chrome&hl=ru&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw&alpha=1
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 06 Feb 2017 18:17:22 GMT
+Content-Type: application/font-woff2
+Content-Length: 16152
+Connection: keep-alive
+Last-Modified: Fri, 11 Nov 2016 20:51:44 GMT
+Vary: Accept-Encoding
+ETag: "58262f60-3f18"
+Expires: Mon, 13 Feb 2017 18:17:22 GMT
+Cache-Control: max-age=604800
+Accept-Ranges: bytes
+

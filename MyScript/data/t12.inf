@@ -1,0 +1,17 @@
+[t12]
+FileName1=t12.html
+URL1=http://ocsp.digicert.com/
+Total=4
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=t12_RequestBody.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_12.xml
+FileName2=t12_selfrepair-1e74a0615b6f5a0c0961.b6f68508f5cb.html
+URL2=https://normandy.cdn.mozilla.net/static/bundles/selfrepair-1e74a0615b6f5a0c0961.b6f68508f5cb.js
+FileName3=t12.html
+URL3=https://self-repair.mozilla.org/api/v1/recipe/?enabled=true
+FileName4=t12.html
+URL4=https://self-repair.mozilla.org/api/v1/classify_client/
+[ProtocolInfo]
+ProtocolId=QTWeb

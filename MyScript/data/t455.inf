@@ -1,0 +1,11 @@
+[t455]
+FileName1=t455.html
+URL1=https://clients1.google.com/tbproxy/af/query?client=Google%20Chrome
+Total=1
+RequestHeaderFile=t455_RequestHeader.txt
+RequestBodyFile=t455_RequestBody.txt
+ResponseHeaderFile=t455_ResponseHeader.txt
+ContentType=text/proto
+SnapshotXmlFile=snapshot_455.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

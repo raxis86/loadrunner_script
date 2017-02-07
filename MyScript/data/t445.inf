@@ -1,0 +1,11 @@
+[t445]
+FileName1=t445.htm
+URL1=http://wiley.youplace.net/quiz/question/1
+Total=1
+RequestHeaderFile=t445_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t445_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_445.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

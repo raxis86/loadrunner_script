@@ -1,0 +1,12 @@
+POST /submit/telemetry/b6dc56d3-6c14-4d4f-a547-ea5fb0617d31/main/Firefox/51.0.1/release/20170125094131?v=4 HTTP/1.1
+Host: incoming.telemetry.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json; charset=UTF-8
+Content-Encoding: gzip
+Content-Length: 4148
+Cookie: optimizelyEndUserId=oeu1470194991362r0.922899123696005; optimizelySegments=%7B%22245984388%22%3A%22false%22%2C%22246002457%22%3A%22direct%22%2C%22246073289%22%3A%22none%22%2C%22246073290%22%3A%22ff%22%7D; optimizelyBuckets=%7B%7D; _ga=GA1.2.9937407.1467256774
+Connection: keep-alive
+

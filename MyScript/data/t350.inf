@@ -1,0 +1,11 @@
+[t350]
+FileName1=t350_favicon.ico
+URL1=http://wiley.youplace.net/favicon.ico
+Total=1
+ContentType=image/x-icon
+SnapshotXmlFile=snapshot_350.xml
+RequestHeaderFile=t350_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t350_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

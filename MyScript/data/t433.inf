@@ -1,0 +1,11 @@
+[t433]
+FileName1=t433.htm
+URL1=http://wiley.youplace.net/quiz/question/16
+Total=1
+RequestHeaderFile=t433_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t433_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_433.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

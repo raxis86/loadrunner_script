@@ -1,0 +1,10 @@
+GET /quiz/question/15 HTTP/1.1
+Host: wiley.youplace.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://wiley.youplace.net/quiz/question/14
+Cookie: sid=96f27e67ed3d1d0d9dabdb8b9137de3df687aa4638ecdd6e0d21fa9ceb65740b
+Connection: keep-alive
+

@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate
+Content-Encoding: gzip
+Content-Type: application/json;charset=utf-8
+Date: Mon, 06 Feb 2017 16:13:43 GMT
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Server: nginx
+Set-Cookie: servid=3101000af3bba4403746d97905593efb1cbe36ba83189f5378f647134db78d1653db9cdb75774e14; path=/; domain=lingualeo.com; HttpOnly
+Set-Cookie: remember=38abc400c07c1d62fc03f7e904c80127f00b00337961b65da3a49ed289656164744007649cc735cc; expires=Sat, 06-May-2017 16:13:43 GMT; Max-Age=7689600; path=/; domain=lingualeo.com
+Set-Cookie: AWSELB=81E385C912B24FF6E77010EAF57B6254C98AA295E0FC855B8D869534CFD40A5275050D903476F7E2A0D617B8D1F6E2AC299DC38B75250C06792A3D849076F77670CD0AB62A589273F8DB418D6D004080193E1A1F76;PATH=/;DOMAIN=lingualeo.com;HTTPONLY
+X-lingualeouid: 1449557509715539
+X-Request-ID: 6d04fab
+Content-Length: 57
+Connection: keep-alive
+

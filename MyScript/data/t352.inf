@@ -1,0 +1,11 @@
+[t352]
+FileName1=t352_ChVnb29nLWJhZGJpbnVybC1zaGF2YXI4AUACSgwIARDVyAcY1cgHIAFKDAgAEK6zBxiuswcgAQ.html
+URL1=https://safebrowsing-cache.google.com/safebrowsing/rd/ChVnb29nLWJhZGJpbnVybC1zaGF2YXI4AUACSgwIARDVyAcY1cgHIAFKDAgAEK6zBxiuswcgAQ
+Total=1
+ContentType=application/vnd.google.safebrowsing-chunk
+SnapshotXmlFile=snapshot_352.xml
+RequestHeaderFile=t352_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t352_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate
+Content-Encoding: gzip
+Content-Type: application/json;charset=utf-8
+Date: Mon, 06 Feb 2017 18:17:22 GMT
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Server: nginx
+X-lingualeouid: 1449557509715539
+X-Request-ID: 8b978bb
+Content-Length: 642
+Connection: keep-alive
+

@@ -1,0 +1,11 @@
+[t394]
+FileName1=t394.htm
+URL1=https://self-repair.mozilla.org/ru/repair
+Total=1
+RequestHeaderFile=t394_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t394_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_394.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

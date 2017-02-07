@@ -1,0 +1,11 @@
+[t44]
+FileName1=t44.htm
+URL1=http://wiley.youplace.net/quiz/question/14
+Total=1
+RequestHeaderFile=t44_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t44_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_44.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

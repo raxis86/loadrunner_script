@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 06 Feb 2017 17:12:02 GMT
+Content-Type: application/font-woff2
+Transfer-Encoding: chunked
+Connection: keep-alive
+Last-Modified: Fri, 11 Nov 2016 20:51:44 GMT
+Vary: Accept-Encoding
+ETag: W/"58262f60-466c"
+Expires: Mon, 13 Feb 2017 17:12:02 GMT
+Cache-Control: max-age=604800
+Content-Encoding: gzip
+

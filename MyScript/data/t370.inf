@@ -1,0 +1,11 @@
+[t370]
+FileName1=t370.html
+URL1=https://clients1.google.com/tbproxy/af/query?client=Google%20Chrome
+Total=1
+RequestHeaderFile=t370_RequestHeader.txt
+RequestBodyFile=t370_RequestBody.txt
+ResponseHeaderFile=t370_ResponseHeader.txt
+ContentType=text/proto
+SnapshotXmlFile=snapshot_370.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

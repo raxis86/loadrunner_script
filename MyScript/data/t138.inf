@@ -1,0 +1,11 @@
+[t138]
+FileName1=t138.htm
+URL1=http://wiley.youplace.net/quiz/question/16
+Total=1
+RequestHeaderFile=t138_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t138_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_138.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

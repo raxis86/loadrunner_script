@@ -1,0 +1,11 @@
+[t396]
+FileName1=t396.html
+URL1=https://self-repair.mozilla.org/api/v1/recipe/?enabled=true
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_396.xml
+RequestHeaderFile=t396_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t396_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

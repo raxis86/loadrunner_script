@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Mon, 06 Feb 2017 17:38:47 GMT
+Expires: Mon, 06 Feb 2017 17:38:47 GMT
+Cache-Control: private, max-age=86400
+Content-Type: application/json; charset=UTF-8
+Content-Language: ru
+X-Content-Type-Options: nosniff
+Content-Disposition: attachment; filename="f.txt"
+Content-Encoding: gzip
+Server: HTTP server (unknown)
+X-XSS-Protection: 1; mode=block
+Alt-Svc: quic=":443"; ma=2592000; v="35,34"
+Transfer-Encoding: chunked
+

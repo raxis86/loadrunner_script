@@ -1,0 +1,13 @@
+[t443]
+FileName1=t443_DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.html
+URL1=http://wiley.youplace.net/fonts/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2
+Total=2
+ContentType=application/font-woff2
+SnapshotXmlFile=snapshot_443.xml
+RequestHeaderFile=t443_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t443_ResponseHeader.txt
+FileName2=t443_favicon.ico
+URL2=http://wiley.youplace.net/favicon.ico
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Work\LoadRunner\Scripts\MySolution\MyScript
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\work\loadrunner\scripts\mysolution\myscript\\logfile.log
+c:\work\loadrunner\scripts\mysolution\myscript\\combined_MyScript.c
+c:\work\loadrunner\scripts\mysolution\myscript\\pre_cci.c

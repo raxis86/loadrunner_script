@@ -1,0 +1,13 @@
+[t170]
+FileName1=t170.htm
+URL1=http://wiley.youplace.net/quiz
+Total=2
+RequestHeaderFile=t170_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t170_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_170.xml
+FileName2=t170_bootstrap.min.css
+URL2=http://wiley.youplace.net/css/bootstrap.min.css
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,10 @@
+GET /api/v1/classify_client/ HTTP/1.1
+Host: self-repair.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0
+Accept: application/json
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+Origin: https://self-repair.mozilla.org
+Referer: https://self-repair.mozilla.org/ru/repair
+Connection: keep-alive
+

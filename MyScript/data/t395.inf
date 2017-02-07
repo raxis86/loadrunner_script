@@ -1,0 +1,13 @@
+[t395]
+FileName1=t395.html
+URL1=http://ocsp.digicert.com/
+Total=2
+RequestHeaderFile=t395_RequestHeader.txt
+RequestBodyFile=t395_RequestBody.txt
+ResponseHeaderFile=t395_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_395.xml
+FileName2=t395_selfrepair-1e74a0615b6f5a0c0961.b6f68508f5cb.html
+URL2=https://normandy.cdn.mozilla.net/static/bundles/selfrepair-1e74a0615b6f5a0c0961.b6f68508f5cb.js
+[ProtocolInfo]
+ProtocolId=QTWeb

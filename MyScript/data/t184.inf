@@ -1,0 +1,11 @@
+[t184]
+FileName1=t184.html
+URL1=https://clients1.google.com/tbproxy/af/query?client=Google%20Chrome
+Total=1
+RequestHeaderFile=t184_RequestHeader.txt
+RequestBodyFile=t184_RequestBody.txt
+ResponseHeaderFile=t184_ResponseHeader.txt
+ContentType=text/proto
+SnapshotXmlFile=snapshot_184.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

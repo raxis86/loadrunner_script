@@ -1,0 +1,13 @@
+[t18]
+FileName1=t18_update.xml
+URL1=https://aus5.mozilla.org/update/3/GMP/46.0.1/20160502172042/WINNT_x86-msvc-x64/ru/release/Windows_NT%2010.0.0.0%20(x64)/default/default/update.xml
+Total=2
+ContentType=text/xml
+SnapshotXmlFile=snapshot_18.xml
+RequestHeaderFile=t18_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t18_ResponseHeader.txt
+FileName2=t18_firefox-46.0.1-47.0.2.partial.html
+URL2=http://download.cdn.mozilla.net/pub/firefox/releases/47.0.2/update/win32/ru/firefox-46.0.1-47.0.2.partial.mar
+[ProtocolInfo]
+ProtocolId=QTWeb

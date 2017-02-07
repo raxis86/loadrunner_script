@@ -1,0 +1,13 @@
+[t427]
+FileName1=t427.htm
+URL1=http://wiley.youplace.net/quiz/question/13
+Total=2
+RequestHeaderFile=t427_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t427_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_427.xml
+FileName2=t427_firefox-46.0.1-47.0.2.partial.html
+URL2=http://download.cdn.mozilla.net/pub/firefox/releases/47.0.2/update/win32/ru/firefox-46.0.1-47.0.2.partial.mar
+[ProtocolInfo]
+ProtocolId=QTWeb

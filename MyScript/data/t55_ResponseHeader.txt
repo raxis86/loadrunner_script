@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Strict-Transport-Security: max-age=10893354; includeSubDomains
+Access-Control-Allow-Origin: https://www.google.com
+Access-Control-Allow-Credentials: true
+Content-Encoding: gzip
+Date: Mon, 06 Feb 2017 16:36:56 GMT
+Expires: Mon, 06 Feb 2017 16:36:56 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Set-Cookie: GAPS=1:7T8sZR5tipgr3AT-L3JzfcgSmNts0A:5hWi12s2JQDyQ7g_;Path=/;Expires=Wed, 06-Feb-2019 16:36:56 GMT;Secure;HttpOnly;Priority=HIGH
+Alt-Svc: quic=":443"; ma=2592000; v="35,34"
+Transfer-Encoding: chunked
+

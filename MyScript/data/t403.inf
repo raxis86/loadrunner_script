@@ -1,0 +1,11 @@
+[t403]
+FileName1=t403.html
+URL1=http://ocsp.digicert.com/
+Total=1
+RequestHeaderFile=t403_RequestHeader.txt
+RequestBodyFile=t403_RequestBody.txt
+ResponseHeaderFile=t403_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_403.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t372]
+FileName1=t372.htm
+URL1=http://wiley.youplace.net/quiz/question/9
+Total=1
+RequestHeaderFile=t372_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t372_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_372.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

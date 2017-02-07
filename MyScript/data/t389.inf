@@ -1,0 +1,11 @@
+[t389]
+FileName1=t389.html
+URL1=http://api.lingualeo.com/api/login?port=1002
+Total=1
+RequestHeaderFile=t389_RequestHeader.txt
+RequestBodyFile=t389_RequestBody.txt
+ResponseHeaderFile=t389_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_389.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

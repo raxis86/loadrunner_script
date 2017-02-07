@@ -1,0 +1,11 @@
+[t178]
+FileName1=t178_client_model_v5_ext_variation_0.html
+URL1=https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_ext_variation_0.pb
+Total=1
+ContentType=application/octet-stream
+SnapshotXmlFile=snapshot_178.xml
+RequestHeaderFile=t178_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t178_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

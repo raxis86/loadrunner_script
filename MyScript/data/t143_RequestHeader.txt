@@ -1,0 +1,14 @@
+POST /quiz/question/18 HTTP/1.1
+Host: wiley.youplace.net
+Connection: keep-alive
+Content-Length: 217
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: http://wiley.youplace.net
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Referer: http://wiley.youplace.net/quiz/question/18
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+Cookie: sid=953d3591f1c30eb07d2d6b9fa4e1e49957f9280be10453ac6141f5e353a297b2
+

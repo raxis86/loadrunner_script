@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Type: application/octet-stream
+Date: Fri, 03 Feb 2017 04:57:06 GMT
+Expires: Sat, 11 Feb 2017 04:57:06 GMT
+Last-Modified: Thu, 21 Apr 2016 03:17:22 GMT
+X-Content-Type-Options: nosniff
+Server: sffe
+Content-Length: 69547
+X-XSS-Protection: 1; mode=block
+Cache-Control: public, max-age=691200
+Age: 301769
+Alt-Svc: quic=":443"; ma=2592000; v="35,34"
+

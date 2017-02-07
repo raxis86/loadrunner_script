@@ -1,0 +1,11 @@
+[t310]
+FileName1=t310.htm
+URL1=http://wiley.youplace.net/quiz/question/10
+Total=1
+RequestHeaderFile=t310_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t310_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_310.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

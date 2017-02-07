@@ -1,0 +1,11 @@
+[t299]
+FileName1=t299.html
+URL1=https://clients1.google.com/tbproxy/af/query?client=Google%20Chrome
+Total=1
+RequestHeaderFile=t299_RequestHeader.txt
+RequestBodyFile=t299_RequestBody.txt
+ResponseHeaderFile=t299_ResponseHeader.txt
+ContentType=text/proto
+SnapshotXmlFile=snapshot_299.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

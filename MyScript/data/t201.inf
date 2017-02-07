@@ -1,0 +1,13 @@
+[t201]
+FileName1=t201.html
+URL1=https://safebrowsing.google.com/safebrowsing/downloads?client=googlechrome&appver=56.0.2924.87&pver=3.0&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw&ext=0
+Total=2
+RequestHeaderFile=t201_RequestHeader.txt
+RequestBodyFile=t201_RequestBody.txt
+ResponseHeaderFile=t201_ResponseHeader.txt
+ContentType=application/vnd.google.safebrowsing-update
+SnapshotXmlFile=snapshot_201.xml
+FileName2=t201_ChVnb29nLWJhZGJpbnVybC1zaGF2YXI4AUACSgwIARDTyAcY08gHIAFKDAgAEKyzBxisswcgAQ.html
+URL2=https://safebrowsing-cache.google.com/safebrowsing/rd/ChVnb29nLWJhZGJpbnVybC1zaGF2YXI4AUACSgwIARDTyAcY08gHIAFKDAgAEKyzBxisswcgAQ
+[ProtocolInfo]
+ProtocolId=QTWeb

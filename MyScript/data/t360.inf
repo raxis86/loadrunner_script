@@ -1,0 +1,11 @@
+[t360]
+FileName1=t360.html
+URL1=http://wiley.youplace.net/quiz/question/3
+Total=1
+RequestHeaderFile=t360_RequestHeader.txt
+RequestBodyFile=t360_RequestBody.txt
+ResponseHeaderFile=t360_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_360.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

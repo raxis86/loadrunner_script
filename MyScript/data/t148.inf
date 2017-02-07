@@ -1,0 +1,8 @@
+[t148]
+FileName1=t148_seed.html
+URL1=https://clients4.google.com/chrome-variations/seed?osname=win
+Total=2
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_148.xml
+FileName2=t148_jquery-1.12.3.min.html
+URL2=http://wiley.youplace.net/js/jquery-1.12.3.min.js?v=1

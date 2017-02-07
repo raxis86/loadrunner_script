@@ -1,0 +1,13 @@
+POST /isauthorized?port=1002 HTTP/1.1
+Host: api.lingualeo.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+LinguaLeo-Version: 2.0.3.1
+X-Accept-Language: ru
+Content-Length: 9
+Cookie: firstseen=2015/12/08; lingualeouid=1449557509715539; lang=ru; iface=ru; optimizelySegments=%7B%221027890468%22%3A%22direct%22%2C%221036670278%22%3A%22ff%22%2C%221037430770%22%3A%22false%22%7D; optimizelyEndUserId=oeu1449557545901r0.4105006909715808; optimizelyBuckets=%7B%7D; _ga=GA1.2.438278237.1449557547; __auc=0f3c0db7151805cde20f79b0601; _snpl_id.2e37=d7a6e6e128573c3b.1449557549.86.1461025200.1460957289; _ym_uid=1466490938256863413; WT_FPC=id=bb4f5e25-dbee-47ef-9785-d7f6edb13c95:lv=1480880650027:ss=1480880138720; remember=38abc400d49dd2b7af874000eaf1c02d2cfc953fe19af877098405e784698704e385fe0de298f0e6; userid=12888888; browser-plugins-msg-hide=1
+Connection: keep-alive
+

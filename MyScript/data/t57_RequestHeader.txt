@@ -1,0 +1,11 @@
+GET /offline/extension/frame?ouid= HTTP/1.1
+Host: docs.google.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+X-Client-Data: CI22yQEIpbbJAQjEtskBCLaZygEI+pzKAQipncoB
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+Cookie: NID=94=CerbpXT6XfcWMmQMsBFQy1k2FhFxZMZb_utHGLyhaBNHTNiKImAh326XpvIxn0kUc1202HJKa4tMAFeUC9lj5Z8UDzf0teGW2jfN-IbZS05VYMI7ppMr9E7gZL_ycYRI
+

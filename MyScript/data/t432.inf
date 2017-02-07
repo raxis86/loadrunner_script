@@ -1,0 +1,11 @@
+[t432]
+FileName1=t432.html
+URL1=http://wiley.youplace.net/quiz/question/15
+Total=1
+RequestHeaderFile=t432_RequestHeader.txt
+RequestBodyFile=t432_RequestBody.txt
+ResponseHeaderFile=t432_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_432.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

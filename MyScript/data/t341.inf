@@ -1,0 +1,13 @@
+[t341]
+FileName1=t341.htm
+URL1=http://wiley.youplace.net/quiz
+Total=2
+RequestHeaderFile=t341_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t341_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_341.xml
+FileName2=t341_bootstrap.min.css
+URL2=http://wiley.youplace.net/css/bootstrap.min.css
+[ProtocolInfo]
+ProtocolId=QTWeb

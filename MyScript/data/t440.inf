@@ -1,0 +1,11 @@
+[t440]
+FileName1=t440_striped_lens.png
+URL1=http://wiley.youplace.net/img/css/striped_lens.png
+Total=1
+ContentType=image/png
+SnapshotXmlFile=snapshot_440.xml
+RequestHeaderFile=t440_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t440_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

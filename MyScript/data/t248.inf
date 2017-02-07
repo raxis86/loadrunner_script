@@ -1,0 +1,11 @@
+[t248]
+FileName1=t248.htm
+URL1=http://wiley.youplace.net/quiz/question/6
+Total=1
+RequestHeaderFile=t248_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t248_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_248.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

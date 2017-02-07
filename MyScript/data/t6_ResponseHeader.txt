@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=30
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8
+Date: Mon, 06 Feb 2017 16:13:57 GMT
+strict-transport-security: max-age=15768000; includeSubDomains
+X-Cached: HIT
+x-content-type-options: nosniff
+X-Frame-Options: DENY
+x-xss-protection: 1; mode=block
+Content-Length: 288
+Connection: keep-alive
+

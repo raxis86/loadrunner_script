@@ -1,0 +1,11 @@
+[t365]
+FileName1=t365.htm
+URL1=http://wiley.youplace.net/quiz/question/6
+Total=1
+RequestHeaderFile=t365_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t365_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_365.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

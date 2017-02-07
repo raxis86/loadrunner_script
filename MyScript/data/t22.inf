@@ -1,0 +1,13 @@
+[t22]
+FileName1=t22.htm
+URL1=http://wiley.youplace.net/quiz/question/3
+Total=2
+RequestHeaderFile=t22_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t22_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_22.xml
+FileName2=t22_firefox-46.0.1-47.0.2.partial.html
+URL2=http://download.cdn.mozilla.net/pub/firefox/releases/47.0.2/update/win32/ru/firefox-46.0.1-47.0.2.partial.mar
+[ProtocolInfo]
+ProtocolId=QTWeb

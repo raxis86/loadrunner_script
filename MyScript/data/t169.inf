@@ -1,0 +1,11 @@
+[t169]
+FileName1=t169.htm
+URL1=http://wiley.youplace.net/quiz/question/submit
+Total=1
+RequestHeaderFile=t169_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t169_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_169.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

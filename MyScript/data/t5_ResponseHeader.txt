@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=90
+Content-Encoding: gzip
+Content-Security-Policy: default-src 'none'; frame-ancestors 'none'
+Content-Type: text/xml; charset=utf-8
+Date: Mon, 06 Feb 2017 16:13:57 GMT
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Proxy-Cache-Status: EXPIRED
+Content-Length: 482
+Connection: keep-alive
+

@@ -1,0 +1,15 @@
+[t5]
+FileName1=t5_update.xml
+URL1=https://aus5.mozilla.org/update/3/Firefox/46.0.1/20160502172042/WINNT_x86-msvc-x64/ru/release/Windows_NT%2010.0.0.0%20(x64)/default/default/update.xml
+Total=3
+ContentType=text/xml
+SnapshotXmlFile=snapshot_5.xml
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+FileName2=t5_glyphicons-halflings-regular.html
+URL2=http://wiley.youplace.net/fonts/glyphicons-halflings-regular.woff2
+FileName3=t5_cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.html
+URL3=http://wiley.youplace.net/fonts/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2
+[ProtocolInfo]
+ProtocolId=QTWeb

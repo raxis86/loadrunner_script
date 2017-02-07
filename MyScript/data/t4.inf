@@ -1,0 +1,13 @@
+[t4]
+FileName1=t4.html
+URL1=http://ocsp.digicert.com/
+Total=2
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=t4_RequestBody.txt
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_4.xml
+FileName2=t4_DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.html
+URL2=http://wiley.youplace.net/fonts/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2
+[ProtocolInfo]
+ProtocolId=QTWeb

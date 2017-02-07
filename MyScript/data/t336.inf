@@ -1,0 +1,11 @@
+[t336]
+FileName1=t336.html
+URL1=http://wiley.youplace.net/quiz/question/5
+Total=1
+RequestHeaderFile=t336_RequestHeader.txt
+RequestBodyFile=t336_RequestBody.txt
+ResponseHeaderFile=t336_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_336.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

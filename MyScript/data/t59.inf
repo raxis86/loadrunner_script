@@ -1,0 +1,13 @@
+[t59]
+FileName1=t59.htm
+URL1=http://wiley.youplace.net/quiz/question/1
+Total=2
+RequestHeaderFile=t59_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t59_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_59.xml
+FileName2=t59_plugins_win.html
+URL2=https://www.gstatic.com/chrome/config/plugins_2/plugins_win.json
+[ProtocolInfo]
+ProtocolId=QTWeb

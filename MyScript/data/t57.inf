@@ -1,0 +1,13 @@
+[t57]
+FileName1=t57.htm
+URL1=https://accounts.google.com/ServiceLogin?service=writely&passive=1209600&continue=https://docs.google.com/offline/extension/frame?ouid&followup=https://docs.google.com/offline/extension/frame?ouid&ltmpl=homepage
+Total=2
+RequestHeaderFile=t57_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t57_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_57.xml
+FileName2=t57_favicon.ico
+URL2=http://wiley.youplace.net/favicon.ico
+[ProtocolInfo]
+ProtocolId=QTWeb

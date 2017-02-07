@@ -1,0 +1,11 @@
+[t369]
+FileName1=t369.htm
+URL1=http://wiley.youplace.net/quiz/question/8
+Total=1
+RequestHeaderFile=t369_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t369_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_369.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

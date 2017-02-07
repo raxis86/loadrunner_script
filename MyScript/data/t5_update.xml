@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<updates>
+    <update type="minor" displayVersion="47.0.2" appVersion="47.0.2" platformVersion="47.0.2" buildID="20161031133903" detailsURL="https://www.mozilla.org/ru/firefox/47.0.2/releasenotes/">
+        <patch type="complete" URL="http://download.mozilla.org/?product=firefox-47.0.2-complete&amp;os=win&amp;lang=ru" hashFunction="sha512" hashValue="cabd84b5bda5b956e63f6a9fa5f8db14e6769950675013f2197fd1fd1fae165a4023e9b2ee491bf97c820b5128c90d1c94afd2f34a2e2e98d7e608e75e691983" size="54020512"/>
+        <patch type="partial" URL="http://download.mozilla.org/?product=firefox-47.0.2-partial-46.0.1&amp;os=win&amp;lang=ru" hashFunction="sha512" hashValue="213758abeb1dd5bb7bc742dea893bf8c9c149e7b2c2f62bf5f430fe1ccd73886a0e01477d1eaff770badd18e1410ea9865afe1940fdb4652758437820a3f45f9" size="20929842"/>
+    </update>
+</updates>

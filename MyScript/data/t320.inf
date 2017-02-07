@@ -1,0 +1,11 @@
+[t320]
+FileName1=t320.htm
+URL1=http://wiley.youplace.net/quiz/question/15
+Total=1
+RequestHeaderFile=t320_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t320_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_320.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

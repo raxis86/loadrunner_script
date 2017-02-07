@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Im: x-bm
+X-Content-Type-Options: nosniff
+X-Country: ru
+X-Frame-Options: SAMEORIGIN
+X-Seed-Signature: MEYCIQD+rpbXeNCb7jm3Sxx05pPq8AIcPXcWsxD7rsdlkmaLcAIhANIL4rrgi/5HYoTZWClvHjOR/Y+DfEfTB8ceTWHPlFrl
+X-Xss-Protection: 1; mode=block
+Date: Mon, 06 Feb 2017 20:00:02 GMT
+Content-Length: 81
+Content-Type: application/octet-stream
+Alt-Svc: quic=":443"; ma=2592000; v="35,34"
+

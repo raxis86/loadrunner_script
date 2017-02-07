@@ -1,0 +1,11 @@
+[t363]
+FileName1=t363.htm
+URL1=http://wiley.youplace.net/quiz/question/5
+Total=1
+RequestHeaderFile=t363_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t363_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_363.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

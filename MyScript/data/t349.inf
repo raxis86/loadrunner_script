@@ -1,0 +1,11 @@
+[t349]
+FileName1=t349_client_model_v5_ext_variation_0.html
+URL1=https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_ext_variation_0.pb
+Total=1
+ContentType=application/octet-stream
+SnapshotXmlFile=snapshot_349.xml
+RequestHeaderFile=t349_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t349_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

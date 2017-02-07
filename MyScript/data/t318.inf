@@ -1,0 +1,11 @@
+[t318]
+FileName1=t318.htm
+URL1=http://wiley.youplace.net/quiz/question/14
+Total=1
+RequestHeaderFile=t318_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t318_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_318.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

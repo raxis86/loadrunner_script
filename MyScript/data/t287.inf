@@ -1,0 +1,11 @@
+[t287]
+FileName1=t287_client_model_v5_ext_variation_0.html
+URL1=https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_ext_variation_0.pb
+Total=1
+ContentType=application/octet-stream
+SnapshotXmlFile=snapshot_287.xml
+RequestHeaderFile=t287_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t287_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

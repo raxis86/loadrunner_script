@@ -1,0 +1,11 @@
+[t405]
+FileName1=t405.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/telemetry/b6dc56d3-6c14-4d4f-a547-ea5fb0617d31/main/Firefox/51.0.1/release/20170125094131?v=4
+Total=1
+RequestHeaderFile=t405_RequestHeader.txt
+RequestBodyFile=t405_RequestBody.txt
+ResponseHeaderFile=t405_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_405.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

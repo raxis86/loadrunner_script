@@ -1,0 +1,13 @@
+[t58]
+FileName1=t58.html
+URL1=http://wiley.youplace.net/quiz
+Total=2
+RequestHeaderFile=t58_RequestHeader.txt
+RequestBodyFile=t58_RequestBody.txt
+ResponseHeaderFile=t58_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_58.xml
+FileName2=t58_ajax-loader.gif
+URL2=http://wiley.youplace.net/img/system/ajax-loader.gif
+[ProtocolInfo]
+ProtocolId=QTWeb
