@@ -1,0 +1,12 @@
+POST /quiz/question/8 HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Referer: http://wiley.youplace.net/quiz/question/8
+User-Agent: Mozilla/5.0 (Windows) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.860.0
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+Accept: */*
+Connection: Keep-Alive
+Host: wiley.youplace.net
+Cookie: sid=ccfd2e12b5174f002eb1392ad32b1b246958b52fe40fa8350cc43bf5c48997b8
+Content-Length: 153
+

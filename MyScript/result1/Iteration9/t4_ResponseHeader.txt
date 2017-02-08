@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 08 Feb 2017 19:58:43 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: sid=aa5ef77c4b9c5342c86e83ac48c76fa0424b7b24b3279a1c0127c727b28acba5; path=/; HttpOnly
+Cache-Control: private, max-age=0, no-cache
+Content-Encoding: gzip
+

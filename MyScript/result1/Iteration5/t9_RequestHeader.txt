@@ -1,0 +1,10 @@
+GET /quiz/question/1 HTTP/1.1
+Referer: http://wiley.youplace.net/quiz
+User-Agent: Mozilla/5.0 (Windows) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.860.0
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+Accept: */*
+Connection: Keep-Alive
+Host: wiley.youplace.net
+Cookie: sid=bac0458b31eb36b476eef9c54ffede52b3872efe65c75930dfd78009a08b7497
+

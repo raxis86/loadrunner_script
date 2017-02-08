@@ -1,0 +1,11 @@
+POST /quiz HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Referer: http://wiley.youplace.net/quiz
+User-Agent: Mozilla/5.0 (Windows) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.860.0
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+Accept: */*
+Connection: Keep-Alive
+Host: wiley.youplace.net
+Content-Length: 121
+

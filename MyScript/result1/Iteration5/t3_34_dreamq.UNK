@@ -1,0 +1,433 @@
+$(document).ready(function() {
+    EventRegister.OnSubmitForm();
+    EventRegister.OnAjaxButton();
+});
+
+Modal = {
+    master_url : '',
+    startMaster : function(title, url){
+        this.clearForms();
+        this.createLayoutLg();
+        this.setHeader(title);
+        this.appendToFooter('<button id="modal-next-button" class="btn btn-info btn-width-sm">Next</button> <button class="btn btn-default btn-width-sm" data-dismiss="modal">Cancel</button>');
+        this.show();
+        this.loadContent(url);
+    },
+    
+    loadContent : function(url){
+        Modal.master_url = url;
+        $.ajax({
+            type: 'GET',
+            dataType: 'html',
+            url: url,
+            success: function(data){
+                Modal.setBody(data);
+                EventRegister.OnModalNext();
+            },
+            error: function(jqXHR, textStatus, errorThrown){
+                alert(textStatus+': '+jqXHR.status+' ('+errorThrown+')');
+            }
+        });
+    },
+    
+    sendData : function(url, fields){
+        Modal.master_url = url;
+        $.ajax({
+            type: 'POST',
+            dataType: 'html',
+            url: url,
+            data: fields,
+            success: function(data){
+                Modal.setBody(data);
+                EventRegister.OnModalNext();
+            },
+            error: function(jqXHR, textStatus, errorThrown){
+                alert(textStatus+': '+jqXHR.status+' ('+errorThrown+')');
+            }
+        });
+    },
+    
+    input : function(caption, url){
+        this.clearForms();
+        this.createLayout();
+        this.setHeader('Please confirm');
+        this.setBody('<form id="confirm-form" name="confirm" action="'+url+'" method="POST"><div class="form-group"><label>'+caption+'</label><input type="text" class="form-control" name="source" placeholder="Required" maxlength="128" minlength="2" required></div>');
+        this.appendToFooter('<button id="confirm-form-button" onclick="Modal.submitConfirm();" class="btn btn-default btn-width-sm">Accept</button>');
+        this.show();
+    },
+    submitConfirm : function(){
+        var button = $('#confirm-form-button').attr('cache', $('#confirm-form-button').text()).text('Loading...').attr('disabled','disabled');
+        Form.handle($("#confirm-form"), button);
+    },
+    popup : function(title, body, large){
+        this.clearForms();
+        if (large == true){
+            this.createLayoutLg();
+        }
+        else{
+            this.createLayout();
+        }
+        this.setHeader(title);
+        this.setBody('<p>'+body+'</p>');
+        this.appendToFooter(' <button type="button" class="btn btn-default btn-width-sm" data-dismiss="modal">Ok</button>');
+        this.show();
+    },
+    setHeader : function(header){
+        $('#main-modal .modal-header').append('<h4>'+header+'</h4>');
+    },
+    setBody : function(body){
+        $('#main-modal .modal-body').html(body);
+    },
+    show : function(){
+        $('#main-modal').modal('show');
+    },
+    hide : function(){
+        $('.modal').modal('hide');
+    },
+    appendToFooter : function(element){
+        $('#main-modal .modal-footer').append(element);
+    },
+    clearForms : function(){
+        if ($('#main-modal').length > 0){
+            $('#main-modal').remove();  
+        }
+        if ($('.modal-backdrop').length > 0){
+            $('.modal-backdrop').remove();  
+        }
+    },
+    createLayout : function(){
+        $("body").append('<div id="main-modal" class="modal fade" role="dialog"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button></div><div id="modal-alert"></div><div class="modal-body"><p><div class="block-center"><img src="/img/system/ajax-loader.gif"></div></p></div><div class="modal-footer"></div></div></div></div>');
+    },
+    createLayoutLg : function(){
+        $("body").append('<div id="main-modal" class="modal fade" aria-hidden="true" tabindex="-1" role="dialog"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button></div><div id="modal-alert"></div><div class="modal-body"><p><div class="block-center"><img src="/img/system/ajax-loader.gif"></div></p></div><div class="modal-footer"></div></div></div></div>');
+    }
+};
+
+EventRegister = {
+    OnSubmitForm : function(){
+        $('button[type="submit"]').bind("click", function(e){
+           var form = $(this).parents('form:first');
+           if (form.length === 0){
+                Modal.popup('ERROR: Related form not found');
+           }
+           else{
+               Form.handle(form, $(this));
+           }
+           return false;
+        });
+    },
+    OnAjaxButton : function(){
+        $('button[data-url]').bind("click", function(e){
+            HttpRequest.get($(this).attr('data-url'));
+        });
+    },
+    RefreshCaptcha : function(){
+        var element = document.getElementById("captcha");
+        if (element !== null){
+            document.getElementById("captcha").src = '/en/system/captcha?rand='+ (new Date()).getTime();
+        }
+    }
+};
+
+Local = {
+    required : function(lang){
+        if (lang === 'ru'){
+            return 'обязательно';
+        }
+        else {
+            return 'required';
+        }
+    },
+    minlen : function(lang, len){
+        if (lang === 'ru'){
+            return 'минимум '+len+' символов';
+        }
+        else {
+            return 'minimum '+len+' characters';
+        }
+    },
+    maxlen : function(lang, len){
+        if (lang === 'ru'){
+            return 'максимум '+len+' символов';
+        }
+        else {
+            return 'maximum '+len+' characters';
+        }
+    },
+    valueMatch : function(lang){
+        if (lang === 'ru'){
+            return 'значение не совпадает';
+        }
+        else {
+            return 'value does not match';
+        }
+    }
+};
+
+Alert = {
+    show : function(text, color){
+        scroll(0,0);
+        //var selector = this.getWindow();
+        var color_class = 'alert-success';
+        switch(color){
+            case 2: color_class = 'alert-warning'; break;
+            case 3:
+                color_class = 'alert-danger';
+                text = '<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> '+text;
+                break;
+            case 4: color_class = 'alert-info'; break;
+        }
+        $('div[data-alert]').html('<div class="alert '+color_class+' alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>'+text+'</div>');
+    },
+    clear : function(){
+        var selector = this.getWindow();
+        $(selector).html('');
+    },
+    getWindow : function(){
+        var selector = 'div[data-alert]';
+        if ($('#modal-alert').length > 0){
+            if ($("#main-modal").is(":visible")){
+                selector = '#modal-alert';
+            }
+        }
+        return selector;
+    },
+    globalClose : function(id){
+         $.ajax({
+            type: 'GET',
+            dataType: 'json',
+            url: '/hidealert/'+id,
+            success: function(data){
+                
+            },
+            error: function(jqXHR, textStatus, errorThrown){
+                alert(textStatus+': '+jqXHR.status+' ('+errorThrown+')');
+            }
+        });
+    }
+};
+
+App = {
+    redirect : function(url){
+        Modal.createLayout();
+        Modal.setHeader('Redirecting');
+        Modal.setBody('<div class="progress"><div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 100%"><span class="sr-only">45% Complete</span></div></div>');
+        Modal.show();
+        window.location.href = url;
+    },
+    refresh : function(){
+        window.location.reload(false);
+    }
+};
+
+Crypt = {
+    sign : function(fields){
+        var count = fields.length;
+        for (var i=0; i<count; i++){
+            if (fields[i].name === '__stoken'){
+                fields[i].name = '__secret';
+            }
+        }
+        return fields;
+    }
+};
+
+HttpRequest = {
+    get : function(url){
+        $.ajax({
+            type: 'GET',
+            dataType: 'json',
+            url: url,
+            success: function(data){
+                if(data[0] === 'alert'){
+                    Alert.show(data[1][0], data[1][1]);
+                }
+                if(data[0] === 'refresh'){
+                    App.refresh();
+                }
+                if(data[0] === 'redirect'){
+                    App.redirect(data[1]);
+                }
+                if(data[0] === 'popup'){
+                    Modal.hide();
+                    Modal.popup(data[1][0], data[1][1], data[1][2]);
+                }
+                if(data[0] === 'form_error'){
+                    Form.handleResponseErrors(data[1]);
+                }
+                if (data[2] == true){
+                    EventRegister.RefreshCaptcha();
+                }
+            },
+            error: function(jqXHR, textStatus, errorThrown){
+                alert(textStatus+': '+jqXHR.status+' ('+errorThrown+')');
+            }
+        });
+    }
+}
+
+Form = {
+    errors : [],
+    name : '',
+    token : '',
+    lang : '',
+    secret : '',
+    method : '',
+    action : '',
+    button : {},
+    handle : function(form, button){
+        this.errors = [];
+        this.disableButton(button);
+        this.name = form.attr('name');
+        this.lang = $('html').attr('lang');
+        this.method = form.attr('method');
+        this.action = form.attr('action');
+        this.clear();
+        var fields = this.getFields(form);
+        if (this.errors.length === 0){
+            this.send(Crypt.sign(fields));
+        }
+        else{
+            this.handleRequestErrors(this.errors);
+            this.activeButton();
+        }
+    },
+    activeButton : function(){
+        this.button.removeAttr('disabled').text(this.button.attr('cache'));
+    },
+    disableButton : function(button){
+        this.button = button;
+        button.attr('cache', button.text()).text('Loading...').attr('disabled','disabled');
+    },
+    send : function(fields){
+        $.ajax({
+            type: this.method,
+            dataType: 'json',
+            url: this.action,
+            data: fields,
+            success: function(data){
+                if(data[0] === 'alert'){
+                    Alert.show(data[1][0], data[1][1]);
+                }
+                if(data[0] === 'refresh'){
+                    App.refresh();
+                }
+                if(data[0] === 'redirect'){
+                    App.redirect(data[1]);
+                }
+                if(data[0] === 'popup'){
+                    Modal.hide();
+                    Modal.popup(data[1][0], data[1][1], data[1][2]);
+                }
+                if(data[0] === 'form_error'){
+                    Form.handleResponseErrors(data[1]);
+                }
+                if (data[2] == true){
+                    EventRegister.RefreshCaptcha();
+                }
+                Form.activeButton();
+            },
+            error: function(jqXHR, textStatus, errorThrown){
+                alert(textStatus+': '+jqXHR.status+' ('+errorThrown+')');
+                Form.activeButton();
+            }
+        });
+    },
+    handleResponseErrors : function(errors){
+        for (var i=0; i<errors.length; i++){
+            if (errors[i]["type"] === null){
+                Alert.show(errors[i]["text"], 3);
+            }
+            else{
+                Form.drawError(errors[i]["type"], errors[i]["text"]);
+            }
+        }
+    },
+    handleRequestErrors : function(errors){
+        for (var i=0; i<errors.length; i++){
+            this.drawError(errors[i][0], errors[i][1]);
+        }
+    },
+    clear : function(){
+        $('.has-error small').remove();
+        $('.has-error').removeClass('has-error');
+        $('.has-success').removeClass('has-success');
+        $( "div.data-alert" ).html('');
+        Alert.clear();
+    },
+    drawError : function(fieldName, errorText){
+        var element = $('form[name="'+Form.name+'"] [name="'+fieldName+'"]');
+        if ($(element).parent().hasClass('input-group')){
+            $(element).parent().parent().addClass('has-error');
+            $(element).parent().after('<small class="text-danger"><span class="glyphicon glyphicon-remove"></span> '+errorText+'</small>');
+        }
+        else{
+            $(element).parent().addClass('has-error');
+            $(element).after('<small class="text-danger"><span class="glyphicon glyphicon-remove"></span> '+errorText+'</small>');
+        }
+    },
+    getFields : function(form){
+        var fields = [];
+        var element = [];
+        form.find('input, select, textarea').each( function(){
+            element['tag'] = $(this).get(0).tagName;
+            element['name'] = $(this).attr("name");
+            element['type'] = $(this).attr("type");
+            element['equal'] = $(this).attr("equal");
+            element['value'] = $(this).val();
+            element['minlen'] = $(this).attr("minlength");
+            element['maxlen'] = $(this).attr("maxlength");
+            if ($(this).is(':required')){
+                element['required'] = true;
+            }
+            else{
+                element['required'] = false;
+            }
+            if (element['type'] === 'checkbox'){
+                if ($(this).is(':checked')){
+                    element['value'] = '1';
+                }
+                else{
+                    return;
+                }
+            }
+            if (element['type'] === 'radio'){
+                var result = $.grep(fields, function(e){ return e.name == element['name']; });
+                if (result.length == 1){
+                    return;
+                }
+                element['value'] = $('input[type="radio"][name="'+element['name']+'"]:checked', 'form[name="'+Form.name+'"]').val();
+            }
+            if (Form.verifyField(element)){
+                fields.push({name: element['name'], value: element['value']});
+            }
+        });
+        return fields;
+    },
+    
+    verifyField : function(element){
+        if ((element['tag'] === 'BUTTON')||(element['type'] === 'hidden')||(element['type'] === 'radio')){
+            return true;
+        }
+        if ((element['required'] === true)&&(element['value'].length === 0)){
+            this.errors.push([element['name'], Local.required(Form.lang)]);
+            return false;
+        }
+        if ((element['value'].length > 0)&&(element['value'].length < element['minlen'])){
+            this.errors.push([element['name'], Local.minlen(Form.lang, element['minlen'])]);
+            return false;
+        }
+        if ((element['value'].length > 0)&&(element['value'].length > element['maxlen'])){
+            this.errors.push([element['name'], Local.maxlen(Form.lang, element['maxlen'])]);
+            return false;
+        }
+        if(typeof element['equal'] !== 'undefined') {
+            var target = $('form[name="'+Form.name+'"] [name="'+element['equal']+'"]').val();
+            if (element['value'] !== target){
+                this.errors.push([element['name'], Local.valueMatch(Form.lang)]);
+                return false;
+            }
+        }
+        return true;
+    }
+};

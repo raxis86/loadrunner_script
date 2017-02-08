@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HTTPSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="1">
-  <HTTPTask id="1" hostname="wiley.youplace.net" path="/quiz" url="http://wiley.youplace.net/quiz" ip="78.155.207.204" port="80" client_ip="10.243.1.76" client_port="7496" connectionId="1924" origin="Primary" startDateTime="2017-02-07T23:33:38.215+03:00" startTime="7022" endTime="7134" sendTime="0" waitTime="0" receiveTime="0">
+  <HTTPTask id="1" hostname="wiley.youplace.net" path="/quiz" url="http://wiley.youplace.net/quiz" ip="78.155.207.204" port="80" client_ip="10.243.1.76" client_port="12569" connectionId="1816" origin="Primary" startDateTime="2017-02-08T22:14:13.104+03:00" startTime="2213" endTime="2466" sendTime="0" waitTime="0" receiveTime="0">
     <HTTPRequest method="GET">
       <HTTPHeaders>
         <HTTPHeaderEntity name="User-Agent" index="0">
@@ -74,7 +74,7 @@
         <HTTPHeaderEntity name="Date" index="1">
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>VHVlLCAwNyBGZWIgMjAxNyAyMDozMzozNyBHTVQ=</ActualData>
+              <ActualData>V2VkLCAwOCBGZWIgMjAxNyAxOToxNDoxMiBHTVQ=</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -138,7 +138,7 @@
         <HTTPAllHeaders>
           <HTTPDataSet>
             <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-              <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54DQpEYXRlOiBUdWUsIDA3IEZlYiAyMDE3IDIwOjMzOjM3IEdNVA0KQ29udGVudC1UeXBlOiB0ZXh0L2h0bWw7IGNoYXJzZXQ9VVRGLTgNClRyYW5zZmVyLUVuY29kaW5nOiBjaHVua2VkDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQpWYXJ5OiBBY2NlcHQtRW5jb2RpbmcNCkNhY2hlLUNvbnRyb2w6IHByaXZhdGUsIG1heC1hZ2U9MCwgbm8tY2FjaGUNClgtQ2FjaGU6IE1JU1MNCkNvbnRlbnQtRW5jb2Rpbmc6IGd6aXANCg0K</ActualData>
+              <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54DQpEYXRlOiBXZWQsIDA4IEZlYiAyMDE3IDE5OjE0OjEyIEdNVA0KQ29udGVudC1UeXBlOiB0ZXh0L2h0bWw7IGNoYXJzZXQ9VVRGLTgNClRyYW5zZmVyLUVuY29kaW5nOiBjaHVua2VkDQpDb25uZWN0aW9uOiBrZWVwLWFsaXZlDQpWYXJ5OiBBY2NlcHQtRW5jb2RpbmcNCkNhY2hlLUNvbnRyb2w6IHByaXZhdGUsIG1heC1hZ2U9MCwgbm8tY2FjaGUNClgtQ2FjaGU6IE1JU1MNCkNvbnRlbnQtRW5jb2Rpbmc6IGd6aXANCg0K</ActualData>
             </HTTPData>
           </HTTPDataSet>
           <IsExternalData>false</IsExternalData>
@@ -147,13 +147,13 @@
       <HTTPBody>
         <HTTPDataSet>
           <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-            <ActualData>PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CjxtZXRhIGNoYXJzZXQ9InV0Zi04Ij4KPG1ldGEgaHR0cC1lcXVpdj0iWC1VQS1Db21wYXRpYmxlIiBjb250ZW50PSJJRT1lZGdlIj4KPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xIj4KPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiB0eXBlPSJ0ZXh0L2NzcyIgaHJlZj0iL2Nzcy9ib290c3RyYXAubWluLmNzcyI+CjwhLS1baWYgbHQgSUUgOV0+CiAgICA8c2NyaXB0IHNyYz0iaHR0cHM6Ly9vc3MubWF4Y2RuLmNvbS9odG1sNXNoaXYvMy43LjIvaHRtbDVzaGl2Lm1pbi5qcyI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iaHR0cHM6Ly9vc3MubWF4Y2RuLmNvbS9saWJzL3Jlc3BvbmQuanMvMS40LjIvcmVzcG9uZC5taW4uanMiPjwvc2NyaXB0Pgo8IVtlbmRpZl0tLT4KPGxpbmsgcmVsPSJzaG9ydGN1dCBpY29uIiBocmVmPSIvZmF2aWNvbi5pY28iIHR5cGU9ImltYWdlL3gtaWNvbiI+Cjx0aXRsZT5TdGFydCBRdWl6PC90aXRsZT4KPC9oZWFkPgo8Ym9keT4KICAgIDxkaXYgY2xhc3M9ImNvbnRhaW5lciI+CiAgICAgICAgPGRpdiBjbGFzcz0icGFnZSI+CiAgICAgICAgICAgIDxuYXYgY2xhc3M9Im5hdmJhciBuYXZiYXItaW52ZXJzZSI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJuYXZiYXItaGVhZGVyIj4KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIHR5cGU9ImJ1dHRvbiIgY2xhc3M9Im5hdmJhci10b2dnbGUgY29sbGFwc2VkIiBkYXRhLXRvZ2dsZT0iY29sbGFwc2UiIGRhdGEtdGFyZ2V0PSIjYnMtZXhhbXBsZS1uYXZiYXItY29sbGFwc2UtMSIgYXJpYS1leHBhbmRlZD0iZmFsc2UiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0ic3Itb25seSI+VG9nZ2xlIG5hdmlnYXRpb248L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJpY29uLWJhciI+PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iaWNvbi1iYXIiPjwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9Imljb24tYmFyIj48L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgPGEgY2xhc3M9Im5hdmJhci1icmFuZCIgaHJlZj0iLyI+PHNwYW4gY2xhc3M9InRleHQtd2hpdGUiPlBlcmZvcm1hbmNlIFRhc2s8L3NwYW4+PC9hPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJjb2xsYXBzZSBuYXZiYXItY29sbGFwc2UiIGlkPSJicy1leGFtcGxlLW5hdmJhci1jb2xsYXBzZS0xIj4KICAgICAgICAgICAgICAgICAgICA8dWwgY2xhc3M9Im5hdiBuYXZiYXItbmF2IG5hdmJhci1yaWdodCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSIvIj48c3BhbiBjbGFzcz0iZ2x5cGhpY29uIGdseXBoaWNvbi1ob21lIiBhcmlhLWhpZGRlbj0idHJ1ZSI+PC9zcGFuPjwvYT48L2xpPgogICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0iL3F1aXoiPlF1aXo8L2E+PC9saT4KICAgICAgICAgICAgICAgICAgICA8L3VsPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvbmF2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJib2R5LXRleHQgbWluLWhlaWdodCI+CiAgICA8ZGl2IGNsYXNzPSJwYWdlLWhlYWRlciI+CiAgICAgICAgPGgxPlN0YXJ0IFF1aXo8L2gxPgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJyb3ciPgogICAgICAgIDxkaXYgY2xhc3M9ImNvbC1zbS02Ij4KICAgICAgICAgICAgPGRpdiBkYXRhLWFsZXJ0PjwvZGl2Pjxmb3JtIG5hbWU9InN0YXJ0IiBhY3Rpb249Ii9xdWl6IiBtZXRob2Q9InBvc3QiPgo8ZGl2IGNsYXNzPSJmb3JtLWdyb3VwIj48bGFiZWwgZm9yPSJuYW1lIj5Vc2VyIG5hbWU8L2xhYmVsPjxpbnB1dCB0eXBlPSJ0ZXh0IiBjbGFzcz0iZm9ybS1jb250cm9sIiBuYW1lPSJuYW1lIiByZXF1aXJlZD0icmVxdWlyZWQiIG1heGxlbmd0aD0iMTI4IiBtaW5sZW5ndGg9IjQiPjwvZGl2Pgo8ZGl2IGNsYXNzPSJmb3JtLWdyb3VwIj48bGFiZWwgZm9yPSJwYXNzd29yZCI+UGFzc3dvcmQ8L2xhYmVsPjxpbnB1dCB0eXBlPSJwYXNzd29yZCIgY2xhc3M9ImZvcm0tY29udHJvbCIgbmFtZT0icGFzc3dvcmQiIHJlcXVpcmVkPSJyZXF1aXJlZCIgbWF4bGVuZ3RoPSIxMjgiIG1pbmxlbmd0aD0iNCI+PC9kaXY+Cjxocj48ZGl2IGNsYXNzPSJmb3JtLWdyb3VwIHRleHQtcmlnaHQiPjxidXR0b24gdHlwZT0ic3VibWl0IiBjbGFzcz0iYnRuIGJ0bi1teSBidG4tbWQiPlN0YXJ0PC9idXR0b24+PC9kaXY+PGlucHV0IHR5cGU9ImhpZGRlbiIgbmFtZT0iX190aW1lc3RhbXAiIHZhbHVlPSIxNDg2NDk5NjE3Ij48aW5wdXQgdHlwZT0iaGlkZGVuIiBuYW1lPSJfX3NlY3JldCIgdmFsdWU9ImQxZmE2N2EyN2EwYThjYzY1NWZmZTFkOTAwOTMwMmJiMTYxNTgwZDYzOWE1NGVhMzkxMTA1ZmQ0YWRkM2M2YWQiPjwvZm9ybT4KICAgICAgICA8L2Rpdj4KICAgIDwvZGl2Pgo8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iYm9keS10ZXh0IHJhZGl1cy1ib3R0b20gYm9yZGVyLXRvcC1ncmF5Ij4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InJvdyI+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iY29sLXhzLTggdGV4dC1sZWZ0Ij4KICAgICAgICAgICAgICAgICAgICAgICAgPHNtYWxsIGNsYXNzPSJ0ZXh0LW11dGVkIj7CqSAyMDE2IEpvaG4gV2lsZXkgJiBTb25zLCBQZXJmb3JtYW5jZSBTUUEgVGVhbTwvc21hbGw+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICAgIDxsaW5rIHJlbD0ic3R5bGVzaGVldCIgdHlwZT0idGV4dC9jc3MiIGhyZWY9Ii9jc3MvYm9vdHN0cmFwLXRoZW1lLm1pbi5jc3M/dj0xIj4KICAgIDxsaW5rIHJlbD0ic3R5bGVzaGVldCIgdHlwZT0idGV4dC9jc3MiIGhyZWY9Ii9jc3MvZ29vZ2xlLmNzcz92PTEiPgogICAgPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiB0eXBlPSJ0ZXh0L2NzcyIgaHJlZj0iL2Nzcy9hcHAuY3NzP3Y9MS4wLjEiPgogICAgPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iL2pzL2pxdWVyeS0xLjEyLjMubWluLmpzP3Y9MSI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSIvanMvYm9vdHN0cmFwLm1pbi5qcz92PTEiPjwvc2NyaXB0PgogICAgPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iL2pzL2RyZWFtcS5qcz92PTEuMCI+PC9zY3JpcHQ+CjwvYm9keT4KPC9odG1sPg==</ActualData>
+            <ActualData>PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CjxtZXRhIGNoYXJzZXQ9InV0Zi04Ij4KPG1ldGEgaHR0cC1lcXVpdj0iWC1VQS1Db21wYXRpYmxlIiBjb250ZW50PSJJRT1lZGdlIj4KPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xIj4KPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiB0eXBlPSJ0ZXh0L2NzcyIgaHJlZj0iL2Nzcy9ib290c3RyYXAubWluLmNzcyI+CjwhLS1baWYgbHQgSUUgOV0+CiAgICA8c2NyaXB0IHNyYz0iaHR0cHM6Ly9vc3MubWF4Y2RuLmNvbS9odG1sNXNoaXYvMy43LjIvaHRtbDVzaGl2Lm1pbi5qcyI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iaHR0cHM6Ly9vc3MubWF4Y2RuLmNvbS9saWJzL3Jlc3BvbmQuanMvMS40LjIvcmVzcG9uZC5taW4uanMiPjwvc2NyaXB0Pgo8IVtlbmRpZl0tLT4KPGxpbmsgcmVsPSJzaG9ydGN1dCBpY29uIiBocmVmPSIvZmF2aWNvbi5pY28iIHR5cGU9ImltYWdlL3gtaWNvbiI+Cjx0aXRsZT5TdGFydCBRdWl6PC90aXRsZT4KPC9oZWFkPgo8Ym9keT4KICAgIDxkaXYgY2xhc3M9ImNvbnRhaW5lciI+CiAgICAgICAgPGRpdiBjbGFzcz0icGFnZSI+CiAgICAgICAgICAgIDxuYXYgY2xhc3M9Im5hdmJhciBuYXZiYXItaW52ZXJzZSI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJuYXZiYXItaGVhZGVyIj4KICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIHR5cGU9ImJ1dHRvbiIgY2xhc3M9Im5hdmJhci10b2dnbGUgY29sbGFwc2VkIiBkYXRhLXRvZ2dsZT0iY29sbGFwc2UiIGRhdGEtdGFyZ2V0PSIjYnMtZXhhbXBsZS1uYXZiYXItY29sbGFwc2UtMSIgYXJpYS1leHBhbmRlZD0iZmFsc2UiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0ic3Itb25seSI+VG9nZ2xlIG5hdmlnYXRpb248L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJpY29uLWJhciI+PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iaWNvbi1iYXIiPjwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9Imljb24tYmFyIj48L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgPGEgY2xhc3M9Im5hdmJhci1icmFuZCIgaHJlZj0iLyI+PHNwYW4gY2xhc3M9InRleHQtd2hpdGUiPlBlcmZvcm1hbmNlIFRhc2s8L3NwYW4+PC9hPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJjb2xsYXBzZSBuYXZiYXItY29sbGFwc2UiIGlkPSJicy1leGFtcGxlLW5hdmJhci1jb2xsYXBzZS0xIj4KICAgICAgICAgICAgICAgICAgICA8dWwgY2xhc3M9Im5hdiBuYXZiYXItbmF2IG5hdmJhci1yaWdodCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSIvIj48c3BhbiBjbGFzcz0iZ2x5cGhpY29uIGdseXBoaWNvbi1ob21lIiBhcmlhLWhpZGRlbj0idHJ1ZSI+PC9zcGFuPjwvYT48L2xpPgogICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0iL3F1aXoiPlF1aXo8L2E+PC9saT4KICAgICAgICAgICAgICAgICAgICA8L3VsPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvbmF2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJib2R5LXRleHQgbWluLWhlaWdodCI+CiAgICA8ZGl2IGNsYXNzPSJwYWdlLWhlYWRlciI+CiAgICAgICAgPGgxPlN0YXJ0IFF1aXo8L2gxPgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJyb3ciPgogICAgICAgIDxkaXYgY2xhc3M9ImNvbC1zbS02Ij4KICAgICAgICAgICAgPGRpdiBkYXRhLWFsZXJ0PjwvZGl2Pjxmb3JtIG5hbWU9InN0YXJ0IiBhY3Rpb249Ii9xdWl6IiBtZXRob2Q9InBvc3QiPgo8ZGl2IGNsYXNzPSJmb3JtLWdyb3VwIj48bGFiZWwgZm9yPSJuYW1lIj5Vc2VyIG5hbWU8L2xhYmVsPjxpbnB1dCB0eXBlPSJ0ZXh0IiBjbGFzcz0iZm9ybS1jb250cm9sIiBuYW1lPSJuYW1lIiByZXF1aXJlZD0icmVxdWlyZWQiIG1heGxlbmd0aD0iMTI4IiBtaW5sZW5ndGg9IjQiPjwvZGl2Pgo8ZGl2IGNsYXNzPSJmb3JtLWdyb3VwIj48bGFiZWwgZm9yPSJwYXNzd29yZCI+UGFzc3dvcmQ8L2xhYmVsPjxpbnB1dCB0eXBlPSJwYXNzd29yZCIgY2xhc3M9ImZvcm0tY29udHJvbCIgbmFtZT0icGFzc3dvcmQiIHJlcXVpcmVkPSJyZXF1aXJlZCIgbWF4bGVuZ3RoPSIxMjgiIG1pbmxlbmd0aD0iNCI+PC9kaXY+Cjxocj48ZGl2IGNsYXNzPSJmb3JtLWdyb3VwIHRleHQtcmlnaHQiPjxidXR0b24gdHlwZT0ic3VibWl0IiBjbGFzcz0iYnRuIGJ0bi1teSBidG4tbWQiPlN0YXJ0PC9idXR0b24+PC9kaXY+PGlucHV0IHR5cGU9ImhpZGRlbiIgbmFtZT0iX190aW1lc3RhbXAiIHZhbHVlPSIxNDg2NTgxMjUyIj48aW5wdXQgdHlwZT0iaGlkZGVuIiBuYW1lPSJfX3NlY3JldCIgdmFsdWU9Ijg1OTU3NDk2NzFjM2IwNTIwMjMwZmY3NDEwZTIyZmYyMWRjZjY1ZmU3MTUwZTg3YzlmNDM3NTExNTIxZDNhMTkiPjwvZm9ybT4KICAgICAgICA8L2Rpdj4KICAgIDwvZGl2Pgo8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iYm9keS10ZXh0IHJhZGl1cy1ib3R0b20gYm9yZGVyLXRvcC1ncmF5Ij4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InJvdyI+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iY29sLXhzLTggdGV4dC1sZWZ0Ij4KICAgICAgICAgICAgICAgICAgICAgICAgPHNtYWxsIGNsYXNzPSJ0ZXh0LW11dGVkIj7CqSAyMDE2IEpvaG4gV2lsZXkgJiBTb25zLCBQZXJmb3JtYW5jZSBTUUEgVGVhbTwvc21hbGw+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICAgIDxsaW5rIHJlbD0ic3R5bGVzaGVldCIgdHlwZT0idGV4dC9jc3MiIGhyZWY9Ii9jc3MvYm9vdHN0cmFwLXRoZW1lLm1pbi5jc3M/dj0xIj4KICAgIDxsaW5rIHJlbD0ic3R5bGVzaGVldCIgdHlwZT0idGV4dC9jc3MiIGhyZWY9Ii9jc3MvZ29vZ2xlLmNzcz92PTEiPgogICAgPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiB0eXBlPSJ0ZXh0L2NzcyIgaHJlZj0iL2Nzcy9hcHAuY3NzP3Y9MS4wLjEiPgogICAgPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iL2pzL2pxdWVyeS0xLjEyLjMubWluLmpzP3Y9MSI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSIvanMvYm9vdHN0cmFwLm1pbi5qcz92PTEiPjwvc2NyaXB0PgogICAgPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iL2pzL2RyZWFtcS5qcz92PTEuMCI+PC9zY3JpcHQ+CjwvYm9keT4KPC9odG1sPg==</ActualData>
           </HTTPData>
         </HTTPDataSet>
         <IsExternalData>false</IsExternalData>
       </HTTPBody>
     </HTTPResponse>
-    <HTTPTask id="2" hostname="wiley.youplace.net" path="/css/bootstrap.min.css" url="http://wiley.youplace.net/css/bootstrap.min.css" ip="78.155.207.204" port="80" client_ip="10.243.1.76" client_port="7497" connectionId="1948" origin="HTML" ordinal="1" startDateTime="2017-02-07T23:33:38.350+03:00" startTime="7158" endTime="7314" sendTime="0" waitTime="0" receiveTime="0">
+    <HTTPTask id="2" hostname="wiley.youplace.net" path="/css/bootstrap.min.css" url="http://wiley.youplace.net/css/bootstrap.min.css" ip="78.155.207.204" port="80" client_ip="10.243.1.76" client_port="12571" connectionId="1872" origin="HTML" ordinal="1" startDateTime="2017-02-08T22:14:13.474+03:00" startTime="2583" endTime="2937" sendTime="0" waitTime="0" receiveTime="0">
       <HTTPRequest method="GET">
         <HTTPHeaders>
           <HTTPHeaderEntity name="Referer" index="0">
@@ -235,7 +235,7 @@
           <HTTPHeaderEntity name="Date" index="1">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>VHVlLCAwNyBGZWIgMjAxNyAyMDozMzozNyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwOCBGZWIgMjAxNyAxOToxNDoxMiBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -291,7 +291,7 @@
           <HTTPHeaderEntity name="Expires" index="8">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>VHVlLCAwNyBGZWIgMjAxNyAyMTozMzozNyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwOCBGZWIgMjAxNyAyMDoxNDoxMiBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -315,7 +315,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54DQpEYXRlOiBUdWUsIDA3IEZlYiAyMDE3IDIwOjMzOjM3IEdNVA0KQ29udGVudC1UeXBlOiB0ZXh0L2Nzcw0KVHJhbnNmZXItRW5jb2Rpbmc6IGNodW5rZWQNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCkxhc3QtTW9kaWZpZWQ6IEZyaSwgMTEgTm92IDIwMTYgMjA6NTE6NDQgR01UDQpWYXJ5OiBBY2NlcHQtRW5jb2RpbmcNCkVUYWc6IFcvIjU4MjYyZjYwLTFkOWE5Ig0KRXhwaXJlczogVHVlLCAwNyBGZWIgMjAxNyAyMTozMzozNyBHTVQNCkNhY2hlLUNvbnRyb2w6IG1heC1hZ2U9MzYwMA0KQ29udGVudC1FbmNvZGluZzogZ3ppcA0KDQo=</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54DQpEYXRlOiBXZWQsIDA4IEZlYiAyMDE3IDE5OjE0OjEyIEdNVA0KQ29udGVudC1UeXBlOiB0ZXh0L2Nzcw0KVHJhbnNmZXItRW5jb2Rpbmc6IGNodW5rZWQNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCkxhc3QtTW9kaWZpZWQ6IEZyaSwgMTEgTm92IDIwMTYgMjA6NTE6NDQgR01UDQpWYXJ5OiBBY2NlcHQtRW5jb2RpbmcNCkVUYWc6IFcvIjU4MjYyZjYwLTFkOWE5Ig0KRXhwaXJlczogV2VkLCAwOCBGZWIgMjAxNyAyMDoxNDoxMiBHTVQNCkNhY2hlLUNvbnRyb2w6IG1heC1hZ2U9MzYwMA0KQ29udGVudC1FbmNvZGluZzogZ3ppcA0KDQo=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -331,7 +331,7 @@
         </HTTPBody>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="3" hostname="wiley.youplace.net" path="/css/bootstrap-theme.min.css?v=1" url="http://wiley.youplace.net/css/bootstrap-theme.min.css?v=1" ip="78.155.207.204" port="80" client_ip="10.243.1.76" client_port="7498" connectionId="1916" origin="HTML" ordinal="2" startDateTime="2017-02-07T23:33:38.350+03:00" startTime="7159" endTime="7328" sendTime="0" waitTime="0" receiveTime="0">
+    <HTTPTask id="3" hostname="wiley.youplace.net" path="/css/bootstrap-theme.min.css?v=1" url="http://wiley.youplace.net/css/bootstrap-theme.min.css?v=1" ip="78.155.207.204" port="80" client_ip="10.243.1.76" client_port="12572" connectionId="1852" origin="HTML" ordinal="2" startDateTime="2017-02-08T22:14:13.494+03:00" startTime="2603" endTime="3071" sendTime="0" waitTime="0" receiveTime="0">
       <QueryString>
         <HTTPDataSet>
           <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
@@ -431,7 +431,7 @@
           <HTTPHeaderEntity name="Date" index="1">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>VHVlLCAwNyBGZWIgMjAxNyAyMDozMzozNyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwOCBGZWIgMjAxNyAxOToxNDoxMiBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -487,7 +487,7 @@
           <HTTPHeaderEntity name="Expires" index="8">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>VHVlLCAwNyBGZWIgMjAxNyAyMTozMzozNyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwOCBGZWIgMjAxNyAyMDoxNDoxMiBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -511,7 +511,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54DQpEYXRlOiBUdWUsIDA3IEZlYiAyMDE3IDIwOjMzOjM3IEdNVA0KQ29udGVudC1UeXBlOiB0ZXh0L2Nzcw0KVHJhbnNmZXItRW5jb2Rpbmc6IGNodW5rZWQNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCkxhc3QtTW9kaWZpZWQ6IEZyaSwgMTEgTm92IDIwMTYgMjA6NTE6NDQgR01UDQpWYXJ5OiBBY2NlcHQtRW5jb2RpbmcNCkVUYWc6IFcvIjU4MjYyZjYwLTViOTciDQpFeHBpcmVzOiBUdWUsIDA3IEZlYiAyMDE3IDIxOjMzOjM3IEdNVA0KQ2FjaGUtQ29udHJvbDogbWF4LWFnZT0zNjAwDQpDb250ZW50LUVuY29kaW5nOiBnemlwDQoNCg==</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54DQpEYXRlOiBXZWQsIDA4IEZlYiAyMDE3IDE5OjE0OjEyIEdNVA0KQ29udGVudC1UeXBlOiB0ZXh0L2Nzcw0KVHJhbnNmZXItRW5jb2Rpbmc6IGNodW5rZWQNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCkxhc3QtTW9kaWZpZWQ6IEZyaSwgMTEgTm92IDIwMTYgMjA6NTE6NDQgR01UDQpWYXJ5OiBBY2NlcHQtRW5jb2RpbmcNCkVUYWc6IFcvIjU4MjYyZjYwLTViOTciDQpFeHBpcmVzOiBXZWQsIDA4IEZlYiAyMDE3IDIwOjE0OjEyIEdNVA0KQ2FjaGUtQ29udHJvbDogbWF4LWFnZT0zNjAwDQpDb250ZW50LUVuY29kaW5nOiBnemlwDQoNCg==</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -527,7 +527,7 @@
         </HTTPBody>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="4" hostname="wiley.youplace.net" path="/css/google.css?v=1" url="http://wiley.youplace.net/css/google.css?v=1" ip="78.155.207.204" port="80" client_ip="10.243.1.76" client_port="7499" connectionId="1956" origin="HTML" ordinal="3" startDateTime="2017-02-07T23:33:38.351+03:00" startTime="7159" endTime="7335" sendTime="0" waitTime="0" receiveTime="0">
+    <HTTPTask id="4" hostname="wiley.youplace.net" path="/css/google.css?v=1" url="http://wiley.youplace.net/css/google.css?v=1" ip="78.155.207.204" port="80" client_ip="10.243.1.76" client_port="12573" connectionId="1920" origin="HTML" ordinal="3" startDateTime="2017-02-08T22:14:13.494+03:00" startTime="2604" endTime="3107" sendTime="0" waitTime="0" receiveTime="0">
       <QueryString>
         <HTTPDataSet>
           <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
@@ -627,7 +627,7 @@
           <HTTPHeaderEntity name="Date" index="1">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>VHVlLCAwNyBGZWIgMjAxNyAyMDozMzozNyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwOCBGZWIgMjAxNyAxOToxNDoxMiBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -683,7 +683,7 @@
           <HTTPHeaderEntity name="Expires" index="8">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>VHVlLCAwNyBGZWIgMjAxNyAyMTozMzozNyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwOCBGZWIgMjAxNyAyMDoxNDoxMiBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -707,7 +707,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54DQpEYXRlOiBUdWUsIDA3IEZlYiAyMDE3IDIwOjMzOjM3IEdNVA0KQ29udGVudC1UeXBlOiB0ZXh0L2Nzcw0KVHJhbnNmZXItRW5jb2Rpbmc6IGNodW5rZWQNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCkxhc3QtTW9kaWZpZWQ6IEZyaSwgMTEgTm92IDIwMTYgMjA6NTE6NDQgR01UDQpWYXJ5OiBBY2NlcHQtRW5jb2RpbmcNCkVUYWc6IFcvIjU4MjYyZjYwLTEwZWQiDQpFeHBpcmVzOiBUdWUsIDA3IEZlYiAyMDE3IDIxOjMzOjM3IEdNVA0KQ2FjaGUtQ29udHJvbDogbWF4LWFnZT0zNjAwDQpDb250ZW50LUVuY29kaW5nOiBnemlwDQoNCg==</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54DQpEYXRlOiBXZWQsIDA4IEZlYiAyMDE3IDE5OjE0OjEyIEdNVA0KQ29udGVudC1UeXBlOiB0ZXh0L2Nzcw0KVHJhbnNmZXItRW5jb2Rpbmc6IGNodW5rZWQNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCkxhc3QtTW9kaWZpZWQ6IEZyaSwgMTEgTm92IDIwMTYgMjA6NTE6NDQgR01UDQpWYXJ5OiBBY2NlcHQtRW5jb2RpbmcNCkVUYWc6IFcvIjU4MjYyZjYwLTEwZWQiDQpFeHBpcmVzOiBXZWQsIDA4IEZlYiAyMDE3IDIwOjE0OjEyIEdNVA0KQ2FjaGUtQ29udHJvbDogbWF4LWFnZT0zNjAwDQpDb250ZW50LUVuY29kaW5nOiBnemlwDQoNCg==</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -723,7 +723,7 @@
         </HTTPBody>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="5" hostname="wiley.youplace.net" path="/css/app.css?v=1.0.1" url="http://wiley.youplace.net/css/app.css?v=1.0.1" ip="78.155.207.204" port="80" client_ip="10.243.1.76" client_port="7500" connectionId="1836" origin="HTML" ordinal="4" startDateTime="2017-02-07T23:33:38.351+03:00" startTime="7159" endTime="7337" sendTime="0" waitTime="0" receiveTime="0">
+    <HTTPTask id="5" hostname="wiley.youplace.net" path="/css/app.css?v=1.0.1" url="http://wiley.youplace.net/css/app.css?v=1.0.1" ip="78.155.207.204" port="80" client_ip="10.243.1.76" client_port="12574" connectionId="1928" origin="HTML" ordinal="4" startDateTime="2017-02-08T22:14:13.494+03:00" startTime="2604" endTime="3128" sendTime="0" waitTime="0" receiveTime="0">
       <QueryString>
         <HTTPDataSet>
           <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
@@ -823,7 +823,7 @@
           <HTTPHeaderEntity name="Date" index="1">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>VHVlLCAwNyBGZWIgMjAxNyAyMDozMzozNyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwOCBGZWIgMjAxNyAxOToxNDoxMiBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -879,7 +879,7 @@
           <HTTPHeaderEntity name="Expires" index="8">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>VHVlLCAwNyBGZWIgMjAxNyAyMTozMzozNyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwOCBGZWIgMjAxNyAyMDoxNDoxMiBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -903,7 +903,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54DQpEYXRlOiBUdWUsIDA3IEZlYiAyMDE3IDIwOjMzOjM3IEdNVA0KQ29udGVudC1UeXBlOiB0ZXh0L2Nzcw0KVHJhbnNmZXItRW5jb2Rpbmc6IGNodW5rZWQNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCkxhc3QtTW9kaWZpZWQ6IEZyaSwgMTEgTm92IDIwMTYgMjA6NTE6NDQgR01UDQpWYXJ5OiBBY2NlcHQtRW5jb2RpbmcNCkVUYWc6IFcvIjU4MjYyZjYwLWVlNCINCkV4cGlyZXM6IFR1ZSwgMDcgRmViIDIwMTcgMjE6MzM6MzcgR01UDQpDYWNoZS1Db250cm9sOiBtYXgtYWdlPTM2MDANCkNvbnRlbnQtRW5jb2Rpbmc6IGd6aXANCg0K</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54DQpEYXRlOiBXZWQsIDA4IEZlYiAyMDE3IDE5OjE0OjEyIEdNVA0KQ29udGVudC1UeXBlOiB0ZXh0L2Nzcw0KVHJhbnNmZXItRW5jb2Rpbmc6IGNodW5rZWQNCkNvbm5lY3Rpb246IGtlZXAtYWxpdmUNCkxhc3QtTW9kaWZpZWQ6IEZyaSwgMTEgTm92IDIwMTYgMjA6NTE6NDQgR01UDQpWYXJ5OiBBY2NlcHQtRW5jb2RpbmcNCkVUYWc6IFcvIjU4MjYyZjYwLWVlNCINCkV4cGlyZXM6IFdlZCwgMDggRmViIDIwMTcgMjA6MTQ6MTIgR01UDQpDYWNoZS1Db250cm9sOiBtYXgtYWdlPTM2MDANCkNvbnRlbnQtRW5jb2Rpbmc6IGd6aXANCg0K</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -919,7 +919,7 @@
         </HTTPBody>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="6" hostname="wiley.youplace.net" path="/js/jquery-1.12.3.min.js?v=1" url="http://wiley.youplace.net/js/jquery-1.12.3.min.js?v=1" ip="78.155.207.204" port="80" client_ip="10.243.1.76" client_port="7501" connectionId="1804" origin="HTML" ordinal="5" startDateTime="2017-02-07T23:33:38.351+03:00" startTime="7160" endTime="7402" sendTime="0" waitTime="0" receiveTime="0">
+    <HTTPTask id="6" hostname="wiley.youplace.net" path="/js/jquery-1.12.3.min.js?v=1" url="http://wiley.youplace.net/js/jquery-1.12.3.min.js?v=1" ip="78.155.207.204" port="80" client_ip="10.243.1.76" client_port="12575" connectionId="1940" origin="HTML" ordinal="5" startDateTime="2017-02-08T22:14:13.495+03:00" startTime="2604" endTime="3313" sendTime="0" waitTime="0" receiveTime="0">
       <QueryString>
         <HTTPDataSet>
           <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
@@ -1019,7 +1019,7 @@
           <HTTPHeaderEntity name="Date" index="1">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>VHVlLCAwNyBGZWIgMjAxNyAyMDozMzozNyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwOCBGZWIgMjAxNyAxOToxNDoxMiBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -1075,7 +1075,7 @@
           <HTTPHeaderEntity name="Expires" index="8">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>VHVlLCAwNyBGZWIgMjAxNyAyMTozMzozNyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwOCBGZWIgMjAxNyAyMDoxNDoxMiBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -1099,7 +1099,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54DQpEYXRlOiBUdWUsIDA3IEZlYiAyMDE3IDIwOjMzOjM3IEdNVA0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qYXZhc2NyaXB0OyBjaGFyc2V0PXV0Zi04DQpUcmFuc2Zlci1FbmNvZGluZzogY2h1bmtlZA0KQ29ubmVjdGlvbjoga2VlcC1hbGl2ZQ0KTGFzdC1Nb2RpZmllZDogRnJpLCAxMSBOb3YgMjAxNiAyMDo1MTo0NCBHTVQNClZhcnk6IEFjY2VwdC1FbmNvZGluZw0KRVRhZzogVy8iNTgyNjJmNjAtMTdiOWMiDQpFeHBpcmVzOiBUdWUsIDA3IEZlYiAyMDE3IDIxOjMzOjM3IEdNVA0KQ2FjaGUtQ29udHJvbDogbWF4LWFnZT0zNjAwDQpDb250ZW50LUVuY29kaW5nOiBnemlwDQoNCg==</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54DQpEYXRlOiBXZWQsIDA4IEZlYiAyMDE3IDE5OjE0OjEyIEdNVA0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qYXZhc2NyaXB0OyBjaGFyc2V0PXV0Zi04DQpUcmFuc2Zlci1FbmNvZGluZzogY2h1bmtlZA0KQ29ubmVjdGlvbjoga2VlcC1hbGl2ZQ0KTGFzdC1Nb2RpZmllZDogRnJpLCAxMSBOb3YgMjAxNiAyMDo1MTo0NCBHTVQNClZhcnk6IEFjY2VwdC1FbmNvZGluZw0KRVRhZzogVy8iNTgyNjJmNjAtMTdiOWMiDQpFeHBpcmVzOiBXZWQsIDA4IEZlYiAyMDE3IDIwOjE0OjEyIEdNVA0KQ2FjaGUtQ29udHJvbDogbWF4LWFnZT0zNjAwDQpDb250ZW50LUVuY29kaW5nOiBnemlwDQoNCg==</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -1115,7 +1115,7 @@
         </HTTPBody>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="7" hostname="wiley.youplace.net" path="/js/bootstrap.min.js?v=1" url="http://wiley.youplace.net/js/bootstrap.min.js?v=1" ip="78.155.207.204" port="80" client_ip="10.243.1.76" client_port="7496" connectionId="1924" origin="HTML" ordinal="6" startDateTime="2017-02-07T23:33:38.351+03:00" startTime="7160" endTime="7246" sendTime="0" waitTime="0" receiveTime="0">
+    <HTTPTask id="7" hostname="wiley.youplace.net" path="/js/bootstrap.min.js?v=1" url="http://wiley.youplace.net/js/bootstrap.min.js?v=1" ip="78.155.207.204" port="80" client_ip="10.243.1.76" client_port="12569" connectionId="1816" origin="HTML" ordinal="6" startDateTime="2017-02-08T22:14:13.495+03:00" startTime="2604" endTime="2715" sendTime="0" waitTime="0" receiveTime="0">
       <QueryString>
         <HTTPDataSet>
           <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
@@ -1215,7 +1215,7 @@
           <HTTPHeaderEntity name="Date" index="1">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>VHVlLCAwNyBGZWIgMjAxNyAyMDozMzozNyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwOCBGZWIgMjAxNyAxOToxNDoxMiBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -1271,7 +1271,7 @@
           <HTTPHeaderEntity name="Expires" index="8">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>VHVlLCAwNyBGZWIgMjAxNyAyMTozMzozNyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwOCBGZWIgMjAxNyAyMDoxNDoxMiBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -1295,7 +1295,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54DQpEYXRlOiBUdWUsIDA3IEZlYiAyMDE3IDIwOjMzOjM3IEdNVA0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qYXZhc2NyaXB0OyBjaGFyc2V0PXV0Zi04DQpUcmFuc2Zlci1FbmNvZGluZzogY2h1bmtlZA0KQ29ubmVjdGlvbjoga2VlcC1hbGl2ZQ0KTGFzdC1Nb2RpZmllZDogRnJpLCAxMSBOb3YgMjAxNiAyMDo1MTo0NCBHTVQNClZhcnk6IEFjY2VwdC1FbmNvZGluZw0KRVRhZzogVy8iNTgyNjJmNjAtOTAwNCINCkV4cGlyZXM6IFR1ZSwgMDcgRmViIDIwMTcgMjE6MzM6MzcgR01UDQpDYWNoZS1Db250cm9sOiBtYXgtYWdlPTM2MDANCkNvbnRlbnQtRW5jb2Rpbmc6IGd6aXANCg0K</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54DQpEYXRlOiBXZWQsIDA4IEZlYiAyMDE3IDE5OjE0OjEyIEdNVA0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qYXZhc2NyaXB0OyBjaGFyc2V0PXV0Zi04DQpUcmFuc2Zlci1FbmNvZGluZzogY2h1bmtlZA0KQ29ubmVjdGlvbjoga2VlcC1hbGl2ZQ0KTGFzdC1Nb2RpZmllZDogRnJpLCAxMSBOb3YgMjAxNiAyMDo1MTo0NCBHTVQNClZhcnk6IEFjY2VwdC1FbmNvZGluZw0KRVRhZzogVy8iNTgyNjJmNjAtOTAwNCINCkV4cGlyZXM6IFdlZCwgMDggRmViIDIwMTcgMjA6MTQ6MTIgR01UDQpDYWNoZS1Db250cm9sOiBtYXgtYWdlPTM2MDANCkNvbnRlbnQtRW5jb2Rpbmc6IGd6aXANCg0K</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -1311,7 +1311,7 @@
         </HTTPBody>
       </HTTPResponse>
     </HTTPTask>
-    <HTTPTask id="8" hostname="wiley.youplace.net" path="/js/dreamq.js?v=1.0" url="http://wiley.youplace.net/js/dreamq.js?v=1.0" ip="78.155.207.204" port="80" client_ip="10.243.1.76" client_port="7496" connectionId="1924" origin="HTML" ordinal="7" startDateTime="2017-02-07T23:33:38.352+03:00" startTime="7160" endTime="7374" sendTime="0" waitTime="0" receiveTime="0">
+    <HTTPTask id="8" hostname="wiley.youplace.net" path="/js/dreamq.js?v=1.0" url="http://wiley.youplace.net/js/dreamq.js?v=1.0" ip="78.155.207.204" port="80" client_ip="10.243.1.76" client_port="12569" connectionId="1816" origin="HTML" ordinal="7" startDateTime="2017-02-08T22:14:13.495+03:00" startTime="2605" endTime="3008" sendTime="0" waitTime="0" receiveTime="0">
       <QueryString>
         <HTTPDataSet>
           <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
@@ -1411,7 +1411,7 @@
           <HTTPHeaderEntity name="Date" index="1">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>VHVlLCAwNyBGZWIgMjAxNyAyMDozMzozNyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwOCBGZWIgMjAxNyAxOToxNDoxMiBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -1467,7 +1467,7 @@
           <HTTPHeaderEntity name="Expires" index="8">
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>VHVlLCAwNyBGZWIgMjAxNyAyMTozMzozNyBHTVQ=</ActualData>
+                <ActualData>V2VkLCAwOCBGZWIgMjAxNyAyMDoxNDoxMiBHTVQ=</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>
@@ -1491,7 +1491,7 @@
           <HTTPAllHeaders>
             <HTTPDataSet>
               <HTTPData dataFilePath="" dfeDataType="Raw" sectionDataType="1">
-                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54DQpEYXRlOiBUdWUsIDA3IEZlYiAyMDE3IDIwOjMzOjM3IEdNVA0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qYXZhc2NyaXB0OyBjaGFyc2V0PXV0Zi04DQpUcmFuc2Zlci1FbmNvZGluZzogY2h1bmtlZA0KQ29ubmVjdGlvbjoga2VlcC1hbGl2ZQ0KTGFzdC1Nb2RpZmllZDogRnJpLCAxMSBOb3YgMjAxNiAyMDo1MTo0NCBHTVQNClZhcnk6IEFjY2VwdC1FbmNvZGluZw0KRVRhZzogVy8iNTgyNjJmNjAtM2M3YyINCkV4cGlyZXM6IFR1ZSwgMDcgRmViIDIwMTcgMjE6MzM6MzcgR01UDQpDYWNoZS1Db250cm9sOiBtYXgtYWdlPTM2MDANCkNvbnRlbnQtRW5jb2Rpbmc6IGd6aXANCg0K</ActualData>
+                <ActualData>SFRUUC8xLjEgMjAwIE9LDQpTZXJ2ZXI6IG5naW54DQpEYXRlOiBXZWQsIDA4IEZlYiAyMDE3IDE5OjE0OjEyIEdNVA0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qYXZhc2NyaXB0OyBjaGFyc2V0PXV0Zi04DQpUcmFuc2Zlci1FbmNvZGluZzogY2h1bmtlZA0KQ29ubmVjdGlvbjoga2VlcC1hbGl2ZQ0KTGFzdC1Nb2RpZmllZDogRnJpLCAxMSBOb3YgMjAxNiAyMDo1MTo0NCBHTVQNClZhcnk6IEFjY2VwdC1FbmNvZGluZw0KRVRhZzogVy8iNTgyNjJmNjAtM2M3YyINCkV4cGlyZXM6IFdlZCwgMDggRmViIDIwMTcgMjA6MTQ6MTIgR01UDQpDYWNoZS1Db250cm9sOiBtYXgtYWdlPTM2MDANCkNvbnRlbnQtRW5jb2Rpbmc6IGd6aXANCg0K</ActualData>
               </HTTPData>
             </HTTPDataSet>
             <IsExternalData>false</IsExternalData>

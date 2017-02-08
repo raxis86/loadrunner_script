@@ -1,27 +1,37 @@
-int length=0;
-int lengthPrev=0;
+//for temp values
 char temp[1000];
 char itmp[10];
+//****************
 
-//char host[] = "http://wiley.youplace.net/quiz/question/";
+//for url handling
+char host_car[] = "http://wiley.youplace.net";
 char* host;
+char* cudr;
+char cdr[100];
+//*******************************************
 
-//char html[1000];
-
+//for elements handling
 char* html;
 char res[100];
 char name[100];
 
 int i=0, j=0, k=0, p=0, maxlength=0;
 int index=0;
+//*********************
+
+//for script progress
 int isSuccess=0;
-int qnumber=0;
-int snapshot=2;
+int isError=0;
+//*******************
 
 Action()
 {
+	//for elements parsing (by default too small for form-groups)
+	web_set_max_html_param_len("8192");
 
-/*Correlation comment - Do not change!  Original value='1486411436' Name ='__timestamp' Type ='ResponseBased'*/
+	//Block of login
+	
+	/*Correlation comment - Do not change!  Original value='1486411436' Name ='__timestamp' Type ='ResponseBased'*/
 	web_reg_save_param_regexp(
 		"ParamName=__timestamp",
 		"RegExp=name=\"__timestamp\"\\ value=\"(.*?)\"><input\\ type",
@@ -31,7 +41,7 @@ Action()
 		"RequestUrl=*/quiz*",
 		LAST);
 
-/*Correlation comment - Do not change!  Original value='62cb776996ad642db0e447afe77c10d7cb97f7d4a78abd040c464093233dffe8' Name ='__secret' Type ='ResponseBased'*/
+	/*Correlation comment - Do not change!  Original value='62cb776996ad642db0e447afe77c10d7cb97f7d4a78abd040c464093233dffe8' Name ='__secret' Type ='ResponseBased'*/
 	web_reg_save_param_regexp(
 		"ParamName=__secret",
 		"RegExp=name=\"__secret\"\\ value=\"(.*?)\"></form",
@@ -50,11 +60,20 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	/*web_set_sockets_option("SSL_VERSION", "2&3");*/
+	lr_think_time(5);
+	
+	//param for saving redirect-address to next page
+	web_reg_save_param_ex(
+		"ParamName=Redirect",
+		"LB=[\"redirect\",\"",
+		"RB=\",false]",
+		"NotFound=warning",
+		SEARCH_FILTERS,
+		"Scope=BODY",
+		LAST);
 
-	lr_think_time(10);
-
-	web_submit_data("quiz_2",
+	//submit login form (Username - from csv file, Password - custom param)
+	web_submit_data("quiz_login",
 		"Action=http://wiley.youplace.net/quiz",
 		"Method=POST",
 		"RecContentType=application/json",
@@ -71,49 +90,68 @@ Action()
 		LAST);
 	
 	
+	//form url from Redirect and host parameters
+	host=lr_eval_string(host_car);
+	cudr=lr_eval_string("{Redirect}");		
+	k=0;
+	memset(cdr,0,100);
+	for(i=0;i<strlen(cudr);i++){
+		if(cudr[i]!=92){				//92 - backslash symbol. Need to convert (example:\/quiz\/question\/14) 
+			cdr[k]=cudr[i];				//to (example:/quiz/question/14)
+			k++;						//
+		}								//
+	}									//and
+	strcat(host,cdr);					//
+	lr_save_string(host,"Host");		//form http://wiley.youplace.net/quiz/question/14
+	//********************************************
 	
 	
-	
+	//run loop for handling pages (quiz all time changes!)
 	do { 
 
-/*Correlation comment - Do not change!  Original value='1486411459' Name ='__timestamp_1' Type ='ResponseBased'*/
+	/*Correlation comment - Do not change!  Original value='1486411459' Name ='__timestamp_1' Type ='ResponseBased'*/
 	web_reg_save_param_regexp(
 		"ParamName=__timestamp_1",
 		"RegExp=name=\"__timestamp\"\\ value=\"(.*?)\"><input\\ type",
+		"NotFound=warning",
 		SEARCH_FILTERS,
 		"Scope=Body",
 		"IgnoreRedirections=No",
 		LAST);
 
-/*Correlation comment - Do not change!  Original value='01c89adbc44d7e392c69fd27bdb431d1538fd5ffe13daa09a111121d0b68915c' Name ='__secret_1' Type ='ResponseBased'*/
+	/*Correlation comment - Do not change!  Original value='01c89adbc44d7e392c69fd27bdb431d1538fd5ffe13daa09a111121d0b68915c' Name ='__secret_1' Type ='ResponseBased'*/
 	web_reg_save_param_regexp(
 		"ParamName=__secret_1",
 		"RegExp=name=\"__secret\"\\ value=\"(.*?)\"><hr",
+		"NotFound=warning",
 		SEARCH_FILTERS,
 		"Scope=Body",
 		"IgnoreRedirections=No",
 		LAST);
-		
-
-	web_reg_save_param_ex(
+	
+	//registering parameters for containing text fields
+	web_reg_save_param_regexp(
 		"ParamName=Texts",
-		"LB=<input type=\"text\" class=\"form-control\" name=\"",
-		"RB=\">",
+		"RegExp=<input type=\"text\" class=\"form-control\" name=\"(.*?)\">",
 		"NotFound=warning",
 		"Ordinal=all",
 		SEARCH_FILTERS,
+		"Scope=Body",
+		"IgnoreRedirections=No",
 		LAST);
-
-	web_reg_save_param_ex(
+	
+	//registering parameters for containing textareas fields	
+	web_reg_save_param_regexp(
 		"ParamName=Textareas",
-		"LB=<textarea name=\"",
-		"RB=\" class=\"form-control\"",
+		"RegExp=<textarea name=\"(.*?)\"",
 		"NotFound=warning",
 		"Ordinal=all",
 		SEARCH_FILTERS,
-		LAST);
-		
-
+		"Scope=Body",
+		"IgnoreRedirections=No",
+		LAST);	
+	
+	//registering parameters for containing select group-forms
 	web_reg_save_param_ex(
 		"ParamName=Selectgroups",
 		"LB=<div class=\"form-group\"><select",
@@ -121,8 +159,10 @@ Action()
 		"NotFound=warning",
 		"Ordinal=all",
 		SEARCH_FILTERS,
+		"Scope=BODY",
 		LAST);
-
+	
+	//registering parameters for containing radio group-forms
 	web_reg_save_param_ex(
 		"ParamName=Radiogroups",
 		"LB=<div class=\"form-group\"><div class=\"radio\">",
@@ -130,9 +170,10 @@ Action()
 		"NotFound=warning",
 		"Ordinal=all",
 		SEARCH_FILTERS,
+		"Scope=BODY",
 		LAST);
 		
-
+	//registering parameters for containing checkbox group-forms
 	web_reg_save_param_ex(
 		"ParamName=Checkboxgroups",
 		"LB=<div class=\"form-group\"><div class=\"checkbox\">",
@@ -140,55 +181,31 @@ Action()
 		"NotFound=warning",
 		"Ordinal=all",
 		SEARCH_FILTERS,
+		"Scope=BODY",
 		LAST);
 		
 	//Registering text for complete quiz
 	web_reg_find("Search=All",
-		"SaveCount=SuccessCount",
+		"SaveCount=Success_Count",
 		"Text=Congratulations, you've answered all the questions correctly!",
-		LAST);	
-
+		LAST);
 	
-	lr_think_time(10);
-	
-	qnumber++;
-	itoa(qnumber,itmp,10);
-	//lr_save_string(itmp, "qnumber");
-	sprintf(temp,"http://wiley.youplace.net/quiz/question/");
-
-	host=lr_eval_string(temp);
+	lr_think_time(3);
 		
-	strcat(host,itmp);
-	
-	lr_save_string(host,"Host");
-	
-	snapshot++;
-	itoa(snapshot,itmp,10);
-	lr_save_string(itmp, "snapshot");
-		
+	//go to (next) quiz page
 	web_url("1",
 		"URL={Host}",
 		"RecContentType=text/html",
 		"Snapshot=t3.inf",
 		"Mode=HTML",
 		LAST);	
-	/*	
-	web_url("1", 
-		"URL=http://wiley.youplace.net/quiz/question/1", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://wiley.youplace.net/quiz", 
-		"Snapshot=t454.inf", 
-		"Mode=HTML", 
-		LAST);	*/
-		
-	/*lr_output_message(lr_eval_string("{Checkboxes_count}"));*/
 	
-	isSuccess=atoi(lr_eval_string("{SuccessCount}"));
+	isSuccess=atoi(lr_eval_string("{Success_Count}"));
 	
-	if(isSuccess!=0){
+	//if it is final page, then break loop
+	if(isSuccess>0){
 		lr_output_message("Sucess!");
-		//break;
+		break;
 	}
 	
 	
@@ -197,8 +214,7 @@ Action()
 	lr_save_string(lr_eval_string("{Body}&__secret={__secret_1}"), "Body");
 	
 	
-	
-	//Check on checkboxes
+	//Check on checkboxes and add right parameters to Body for post request (if exists)
 	for(i=1; i<=lr_paramarr_len("Checkboxgroups"); i++) {
 		
 		//fill temp variable
@@ -216,7 +232,7 @@ Action()
 					if(html[j]=='"'){
 						break;
 					}
-					res[k]=html[j];
+					res[k]=html[j];	
 					k++;
 				}
 				index++;
@@ -237,7 +253,7 @@ Action()
 	}	
 	
 	
-	//check on radiogroups
+	//check on radiogroups and add right parameters to Body for post request (if exists)
 	for(i=1; i<=lr_paramarr_len("Radiogroups"); i++) {
 		//fill temp variable
 		sprintf(temp,"{Radiogroups_%d}",i );
@@ -279,7 +295,7 @@ Action()
 		lr_save_string(lr_eval_string("{Body}&{RadioName}={RadioValue}"), "Body");
 	}
 	
-	//check on selectgroups
+	//check on selectgroups and add right parameters to Body for post request (if exists)
 	for(i=1; i<=lr_paramarr_len("Selectgroups"); i++) {
 		//fill temp variable
 		sprintf(temp,"{Selectgroups_%d}",i );
@@ -327,7 +343,7 @@ Action()
 	for(i=1; i<=lr_paramarr_len("Texts"); i++) {
 
 		lr_save_string(lr_paramarr_idx("Texts", i), "TextName");
-		lr_save_string("short text", "TextValue");
+		lr_save_string("short+text", "TextValue");
 		
 		lr_save_string(lr_eval_string("{Body}&{TextName}={TextValue}"), "Body");
 		
@@ -339,31 +355,32 @@ Action()
 	for(i=1; i<=lr_paramarr_len("Textareas"); i++) {
 
 		lr_save_string(lr_paramarr_idx("Textareas", i), "TextareaName");
-		lr_save_string("large text", "TextareaValue");
+		lr_save_string("large+text", "TextareaValue");
 		
 		lr_save_string(lr_eval_string("{Body}&{TextareaName}={TextareaValue}"), "Body");
 		
 	}	
 
 
+	lr_think_time(3);
 	
-	
+	//param for saving redirect-address to next page
+	web_reg_save_param_ex(
+		"ParamName=Redirect",
+		"LB=[\"redirect\",\"",
+		"RB=\",false]",
+		"NotFound=warning",
+		SEARCH_FILTERS,
+		"Scope=BODY",
+		LAST);
 
-	lr_think_time(10);
+	//param for error on page
+	web_reg_find("Search=All",
+		"SaveCount=Error_Count",
+		"Text=Some field has wrong value",
+		LAST);
 	
-/*
-	web_reg_save_param("Location",
-                           "LB=Location: ",
-                           "RB=\r\n",
-                           "Ord=1",
-                           "NotFound=Warning",
-                           "Search=Headers",
-                           LAST );*/
-	
-	snapshot++;
-	itoa(snapshot,itmp,10);
-	lr_save_string(itmp, "snapshot");
-	
+	//Post form whith checked params in Body
 	web_custom_request("web_custom_request",
 		"URL={Host}",
 		"Method=POST",
@@ -373,36 +390,29 @@ Action()
 		"Mode=HTTP", 
 		"Body={Body}",
 		LAST);
-
 	
-/*
-	web_url("2", 
-		"URL={Location}", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Snapshot=t457.inf", 
-		"Mode=HTML", 
-		LAST);*/
 	
-	/*
-	web_url("2", 
-		"URL=http://wiley.youplace.net/quiz/question/2", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Snapshot=t457.inf", 
-		"Mode=HTML", 
-		LAST);
-		*/
+	isError=atoi(lr_eval_string("{Error_Count}"));
 	
-	/*
-	web_url("2", 
-		"URL=http://wiley.youplace.net/quiz/question/2", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://wiley.youplace.net/quiz/question/1", 
-		"Snapshot=t457.inf", 
-		"Mode=HTML", 
-		LAST);*/
+	if(isError>0){
+		lr_output_message("Error!");
+		isError=0;
+	}
+	else
+	{
+		host=lr_eval_string(host_car);
+		cudr=lr_eval_string("{Redirect}");		
+		k=0;
+		memset(cdr,0,100);
+		for(i=0;i<strlen(cudr);i++){
+			if(cudr[i]!=92){
+				cdr[k]=cudr[i];
+				k++;
+			}
+		}
+		strcat(host,cdr);
+		lr_save_string(host,"Host");
+	}
 		
 	
 	}while(isSuccess==0);
