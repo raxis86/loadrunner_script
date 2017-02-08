@@ -60,7 +60,7 @@ Action()
 		"Mode=HTML", 
 		LAST);
 
-	lr_think_time(5);
+	lr_think_time(10);
 	
 	//param for saving redirect-address to next page
 	web_reg_save_param_ex(
