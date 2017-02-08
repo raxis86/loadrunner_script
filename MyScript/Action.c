@@ -190,7 +190,7 @@ Action()
 		"Text=Congratulations, you've answered all the questions correctly!",
 		LAST);
 	
-	lr_think_time(3);
+	lr_think_time(10);
 		
 	//go to (next) quiz page
 	web_url("1",
@@ -362,7 +362,7 @@ Action()
 	}	
 
 
-	lr_think_time(3);
+	lr_think_time(10);
 	
 	//param for saving redirect-address to next page
 	web_reg_save_param_ex(
